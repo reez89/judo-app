@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <rect width="200" height="120" fill="#20202a"/>
+  <g fill="none" stroke="#b98bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="92" cy="42" r="8"/>
+    <path d="M92 50v26l-12 20M92 66l22 4 12 18M92 74l16-4"/>
+  </g>
+  <text x="100" y="112" fill="#8886a0" font-size="10" font-family="sans-serif" text-anchor="middle" letter-spacing="1.5">VIDEO IN ARRIVO</text>
+</svg>

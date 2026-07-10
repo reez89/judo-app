@@ -1,0 +1,30 @@
+// For information on how to create your own theme, please refer to:
+// https://ionicframework.com/docs/theming/
+
+:root {
+  --ion-background-color: #141319;
+  --ion-background-color-rgb: 20, 19, 25;
+  --ion-text-color: #f0eef6;
+  --ion-text-color-rgb: 240, 238, 246;
+
+  --ion-toolbar-background: #141319;
+  --ion-tab-bar-background: #1b1a20;
+  --ion-item-background: #20202a;
+  --ion-card-background: #20202a;
+
+  --ion-color-primary: #8a5cd6;
+  --ion-color-primary-rgb: 138, 92, 214;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #794fbc;
+  --ion-color-primary-tint: #966bda;
+
+  /* Token app */
+  --judo-purple: #b98bff;
+  --judo-purple-base: #8a5cd6;
+  --judo-green: #4bd88a;
+  --judo-red: #ff6b64;
+  --judo-surface: #20202a;
+  --judo-border: #2c2b38;
+  --judo-muted: #8886a0;
+}

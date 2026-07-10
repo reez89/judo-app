@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nage-no-kata",
+    "nomeGiapponese": "Nage-no-kata",
+    "nomeItaliano": "Forme di proiezione",
+    "descrizione": "Kata fondamentale composto da 15 tecniche di proiezione divise in cinque serie da tre, eseguite a destra e a sinistra.",
+    "serie": [
+      { "titolo": "Te-waza (tecniche di braccia)", "tecniche": ["Uki-otoshi", "Seoi-nage", "Kata-guruma"] },
+      { "titolo": "Koshi-waza (tecniche d'anca)", "tecniche": ["Uki-goshi", "Harai-goshi", "Tsurikomi-goshi"] },
+      { "titolo": "Ashi-waza (tecniche di gambe)", "tecniche": ["Okuri-ashi-harai", "Sasae-tsurikomi-ashi", "Uchi-mata"] },
+      { "titolo": "Ma-sutemi-waza (tecniche in sacrificio sul dorso)", "tecniche": ["Tomoe-nage", "Ura-nage", "Sumi-gaeshi"] },
+      { "titolo": "Yoko-sutemi-waza (tecniche in sacrificio laterale)", "tecniche": ["Yoko-gake", "Yoko-guruma", "Uki-waza"] }
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }]
+  },
+  {
+    "id": "katame-no-kata",
+    "nomeGiapponese": "Katame-no-kata",
+    "nomeItaliano": "Forme di controllo",
+    "descrizione": "Kata dedicato alle tecniche a terra, composto da tre serie che rappresentano immobilizzazioni, strangolamenti e leve articolari.",
+    "serie": [
+      { "titolo": "Osae-komi-waza (immobilizzazioni)", "tecniche": ["Kesa-gatame", "Kata-gatame", "Kami-shiho-gatame", "Yoko-shiho-gatame", "Tate-shiho-gatame"] },
+      { "titolo": "Shime-waza (strangolamenti)", "tecniche": ["Kata-juji-jime", "Hadaka-jime", "Okuri-eri-jime", "Kataha-jime", "Gyaku-juji-jime"] },
+      { "titolo": "Kansetsu-waza (leve articolari)", "tecniche": ["Ude-garami", "Ude-hishigi-juji-gatame", "Ude-hishigi-ude-gatame", "Ude-hishigi-hiza-gatame", "Ashi-garami"] }
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }]
+  },
+  {
+    "id": "ju-no-kata",
+    "nomeGiapponese": "Ju-no-kata",
+    "nomeItaliano": "Forme della cedevolezza",
+    "descrizione": "Kata dimostrativo del principio di cedevolezza (ju), eseguito con movimenti lenti e senza contatto diretto di proiezione, diviso in tre serie.",
+    "serie": [
+      { "titolo": "Prima serie", "tecniche": ["Tsuki-dashi", "Kata-oshi", "Ryote-dori"] },
+      { "titolo": "Seconda serie", "tecniche": ["Kasumi-dori", "Ude-dori", "Sode-dori"] },
+      { "titolo": "Terza serie", "tecniche": ["Tsuki-age", "Uke-nagashi", "Sukui-nage"] }
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }]
+  },
+  {
+    "id": "kime-no-kata",
+    "nomeGiapponese": "Kime-no-kata",
+    "nomeItaliano": "Forme della decisione",
+    "descrizione": "Kata di autodifesa che comprende tecniche contro attacchi disarmati e armati, eseguito in posizione seduta e in piedi.",
+    "serie": [
+      { "titolo": "Idori (tecniche da seduti)", "tecniche": ["Ryote-dori", "Tsukkake", "Suri-age", "Yoko-uchi", "Ushiro-dori", "Tsukkomi", "Kiri-komi", "Yoko-tsuki"] },
+      { "titolo": "Tachiai (tecniche in piedi)", "tecniche": ["Ryote-dori", "Sode-tori", "Tsukkake", "Tsuki-age", "Suri-age", "Yoko-uchi", "Kesa-uchi", "Ushiro-dori", "Tsukkomi", "Kiri-komi", "Nuki-kake", "Kiri-oroshi"] }
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }]
+  },
+  {
+    "id": "kodokan-goshin-jutsu",
+    "nomeGiapponese": "Kodokan-goshin-jutsu",
+    "nomeItaliano": "Forme di autodifesa del Kodokan",
+    "descrizione": "Kata moderno di autodifesa contro attacchi a mani nude e armati (coltello, bastone, pistola), suddiviso in tecniche senza e con armi.",
+    "serie": [
+      { "titolo": "Toshu-no-bu (senza armi)", "tecniche": ["Ryote-dori", "Sode-tori", "Kata-tori", "Muna-tori", "Ago-tori", "Kata-ude-tori", "Ryokata-tori", "Sode-guchi-tori", "Tsuki-kake", "Suri-age", "Yoko-tsuki"] },
+      { "titolo": "Buki-no-bu (con armi)", "tecniche": ["Tanto-dori (coltello)", "Tsue-dori (bastone)", "Shoken-dori (pistola)"] }
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }]
+  }
+]

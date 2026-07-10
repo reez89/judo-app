@@ -59,27 +59,22 @@ Da progetto sincronizzato (`npm run build && npx cap sync ios`):
 5. In Xcode scegli l'iPhone come destinazione → **▶ Run**.
 6. Prima apertura: **Impostazioni → Generali → VPN e gestione dispositivo** → autorizza il profilo.
 
-### ⚠️ Blocco noto build iOS nativa (Capacitor 8 + SPM + Xcode 16.2)
+### Integrazione iOS: CocoaPods (non SPM)
 
-Al primo build in Xcode i plugin Capacitor danno errori Swift "fantasma":
-`CAPPluginCall has no member 'reject'`, `missing argument for parameter #2` su `getString`,
-e (a core 8.4.1) `CAPBridgeProtocol has no member 'webView/viewController'` in status-bar.
+⚠️ IMPORTANTE: `ios/` usa **CocoaPods**, quindi aprire **`ios/App/App.xcworkspace`**
+(NON `App.xcodeproj`). `npx cap open ios` apre già il workspace corretto.
 
-Diagnosi: i metodi ESISTONO davvero nell'XCFramework Capacitor (verificato nello
-`.swiftinterface` sia 8.0.0 sia 8.4.1: `getString(_:)`, `reject(...)`), ma i metodi definiti
-in `extension` su `CAPPluginCall` non sono visibili al modulo del plugin compilato via SPM.
-È un problema del toolchain (integrazione Swift Package Manager di Capacitor 8 con Xcode 16.2),
-NON risolvibile cambiando versione dei pacchetti.
+Motivo: l'integrazione **Swift Package Manager** di Capacitor 8 con Xcode 16.2 dà errori Swift
+"fantasma" nei plugin (`CAPPluginCall has no member 'reject'`, `missing argument #2` su
+`getString`, `CAPBridgeProtocol has no member 'webView'`): i metodi esistono nell'XCFramework
+ma non sono visibili al modulo del plugin compilato via SPM. Rigenerando con
+`npx cap add ios --packagemanager CocoaPods` il problema sparisce.
 
-Stato: core/cli/ios allineati a **8.0.0** (la riga a cui puntano i plugin, `^8.0.0`); questo
-risolve status-bar ma non preferences. Il web e tutta la logica app sono completi e verdi.
+Stato verificato: `xcodebuild -workspace ios/App/App.xcworkspace -scheme App -sdk iphonesimulator
+CODE_SIGNING_ALLOWED=NO build` → **BUILD SUCCEEDED**. Manca solo la firma (Apple ID) in Xcode
+per installare su device. core/cli/ios pinnati a **8.0.0** (riga dei plugin, `^8.0.0`).
 
-Prossimi tentativi (in ordine di probabilità), da valutare con più budget:
-1. Passare i plugin all'integrazione **CocoaPods** invece di SPM (Capacitor supporta entrambe):
-   rigenerare `ios/` con `--packagemanager Cocoapods` o downgrade CLI, poi `pod install`.
-2. Aggiornare l'intera toolchain a Capacitor **9** (core/cli/ios + plugin) quando i plugin
-   stabili 9.x escono (ora solo nightly), che riallinea l'API.
-3. In alternativa provare un Xcode diverso (15.x) dove l'export dei moduli SPM si comporta bene.
+Se in futuro si rigenera `ios/`, usare SEMPRE `--packagemanager CocoaPods`.
 
 Versione app: `MARKETING_VERSION 1.0`, build `CURRENT_PROJECT_VERSION 1`.
 Nota: con Apple ID gratuito l'app scade dopo 7 giorni (ripremi ▶ per reinstallare).

@@ -1,0 +1,329 @@
+<style>
+  :root{
+    --bg:#f6f6f4; --panel:#ffffff; --ink:#1a1a1f; --muted:#6b6b73;
+    --line:#e6e6e2; --brand:#6d4aa7;
+    --font-body: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --font-serif: "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#111014; --panel:#1b1a20; --ink:#f3f2ef; --muted:#a09fa8; --line:#2a2932; }
+  }
+  :root[data-theme="light"]{ --bg:#f6f6f4; --panel:#ffffff; --ink:#1a1a1f; --muted:#6b6b73; --line:#e6e6e2; }
+  :root[data-theme="dark"]{ --bg:#111014; --panel:#1b1a20; --ink:#f3f2ef; --muted:#a09fa8; --line:#2a2932; }
+
+  *{ box-sizing:border-box; }
+  body{ margin:0; }
+  .wrap{
+    background:var(--bg); color:var(--ink); font-family:var(--font-body);
+    padding:48px 24px 80px; min-height:100vh;
+  }
+  .head{ max-width:760px; margin:0 auto 8px; }
+  .eyebrow{ text-transform:uppercase; letter-spacing:.18em; font-size:12px; color:var(--brand); font-weight:700; }
+  h1{ font-family:var(--font-serif); font-weight:600; font-size:clamp(28px,5vw,44px); line-height:1.05; margin:.25em 0 .3em; text-wrap:balance; }
+  .lede{ color:var(--muted); font-size:16px; line-height:1.6; max-width:60ch; }
+
+  .grid{
+    max-width:1180px; margin:48px auto 0;
+    display:grid; gap:40px 32px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    align-items:start;
+  }
+  .col{ display:flex; flex-direction:column; gap:18px; }
+  .col-head h2{ font-family:var(--font-serif); font-size:24px; margin:0 0 4px; }
+  .col-head .tag{ font-size:13px; color:var(--muted); line-height:1.5; }
+  .swatches{ display:flex; gap:8px; margin-top:12px; }
+  .sw{ width:26px; height:26px; border-radius:7px; box-shadow:inset 0 0 0 1px rgba(0,0,0,.08); }
+  .sw span{ display:none; }
+
+  /* ---------- phone frame ---------- */
+  .phone{
+    border-radius:34px; padding:10px; background:#0c0c10;
+    box-shadow:0 24px 48px -20px rgba(0,0,0,.45), 0 2px 0 rgba(255,255,255,.04) inset;
+  }
+  .screen{ border-radius:26px; overflow:hidden; position:relative; }
+  .status{ display:flex; justify-content:space-between; align-items:center; padding:10px 18px 6px; font-size:12px; font-weight:600; }
+  .mini{ margin-top:2px; }
+  .mini .screen{ border-radius:22px; }
+
+  .stack{ display:flex; flex-direction:column; }
+  .row{ display:flex; align-items:center; gap:10px; }
+  .chip{ font-size:11px; font-weight:700; padding:4px 9px; border-radius:999px; white-space:nowrap; }
+  .chips{ display:flex; gap:7px; flex-wrap:wrap; }
+  .fav{ margin-left:auto; }
+  .jp{ font-weight:700; }
+  .it{ font-size:12px; }
+  .search{ display:flex; align-items:center; gap:8px; font-size:13px; }
+  .thumb{ width:44px; height:44px; border-radius:12px; flex:none; display:grid; place-items:center; }
+  .thumb svg{ width:26px; height:26px; }
+  .media{ height:120px; display:grid; place-items:center; position:relative; }
+  .media .ph{ font-size:11px; letter-spacing:.12em; text-transform:uppercase; font-weight:700; opacity:.85; }
+  .media svg{ width:52px; height:52px; opacity:.9; }
+  .label{ text-transform:uppercase; letter-spacing:.14em; font-size:10px; font-weight:700; }
+
+  /* ============ DIREZIONE 1 — DOJO (chiara, editoriale) ============ */
+  .dir-dojo .screen{ background:#fbfbf9; color:#20201d; font-family:var(--font-body); }
+  .dir-dojo .status{ color:#20201d; }
+  .dir-dojo .head-app{ padding:6px 20px 14px; }
+  .dir-dojo .head-app .kanji{ font-family:var(--font-serif); font-size:30px; letter-spacing:.05em; }
+  .dir-dojo .head-app .sub{ font-size:12px; color:#8a8a80; letter-spacing:.2em; text-transform:uppercase; }
+  .dir-dojo .searchbar{ margin:0 16px; padding:10px 14px; border-radius:12px; background:#f1f0ea; color:#8a8a80; }
+  .dir-dojo .filters{ padding:14px 16px 8px; }
+  .dir-dojo .filters .chip{ background:transparent; border:1px solid #dcdad0; color:#6d4aa7; }
+  .dir-dojo .filters .chip.on{ background:#6d4aa7; color:#fff; border-color:#6d4aa7; }
+  .dir-dojo .item{ padding:14px 18px; border-top:1px solid #ecebe4; }
+  .dir-dojo .item:first-child{ border-top:0; }
+  .dir-dojo .jp{ font-size:16px; font-family:var(--font-serif); }
+  .dir-dojo .it{ color:#8a8a80; }
+  .dir-dojo .dot{ width:8px; height:8px; border-radius:50%; }
+  .dir-dojo .thumb{ background:#f1f0ea; color:#6d4aa7; }
+  .dir-dojo .media{ background:linear-gradient(160deg,#f1f0ea,#e7e6dd); color:#7d7b70; }
+  .dir-dojo .detail-body{ padding:16px 18px; }
+  .dir-dojo .green{ color:#2f8f5b; } .dir-dojo .bg-green{ background:#e7f4ec; color:#2f8f5b; }
+  .dir-dojo .red{ color:#c0413b; } .dir-dojo .bg-red{ background:#fbeae9; color:#c0413b; }
+  .dir-dojo .bg-purple{ background:#efe9f7; color:#6d4aa7; }
+
+  /* ============ DIREZIONE 2 — TATAMI (moderna, card colorate) ============ */
+  .dir-tatami .screen{ background:#f4f5f7; color:#171821; font-family:var(--font-body); }
+  .dir-tatami .status{ color:#171821; }
+  .dir-tatami .head-app{ padding:4px 18px 10px; display:flex; align-items:center; }
+  .dir-tatami .head-app h3{ margin:0; font-size:22px; font-weight:800; letter-spacing:-.02em; }
+  .dir-tatami .head-app .av{ margin-left:auto; width:32px; height:32px; border-radius:50%; background:linear-gradient(135deg,#6d4aa7,#9a6be0); }
+  .dir-tatami .searchbar{ margin:0 16px 12px; padding:12px 14px; border-radius:14px; background:#fff; color:#9a9aa4; box-shadow:0 4px 14px -8px rgba(20,20,40,.25); }
+  .dir-tatami .filters{ display:flex; gap:8px; padding:0 16px 12px; overflow:hidden; }
+  .dir-tatami .filters .chip{ background:#fff; color:#5a5b66; box-shadow:0 2px 8px -6px rgba(0,0,0,.4); }
+  .dir-tatami .filters .chip.on{ background:#171821; color:#fff; }
+  .dir-tatami .cards{ padding:0 16px; display:flex; flex-direction:column; gap:12px; }
+  .dir-tatami .card{ background:#fff; border-radius:18px; padding:12px; box-shadow:0 8px 20px -14px rgba(20,20,40,.35); }
+  .dir-tatami .jp{ font-size:15px; } .dir-tatami .it{ color:#9a9aa4; }
+  .dir-tatami .thumb.g{ background:linear-gradient(135deg,#34c07a,#1f9e60); color:#fff; }
+  .dir-tatami .thumb.r{ background:linear-gradient(135deg,#f0605a,#d23e3a); color:#fff; }
+  .dir-tatami .thumb.p{ background:linear-gradient(135deg,#8a5cd6,#6d4aa7); color:#fff; }
+  .dir-tatami .bg-green{ background:#e4f7ed; color:#1f9e60; }
+  .dir-tatami .bg-red{ background:#fde7e6; color:#d23e3a; }
+  .dir-tatami .bg-purple{ background:#efe6fb; color:#6d4aa7; }
+  .dir-tatami .media{ height:130px; border-radius:16px; margin:12px; background:linear-gradient(135deg,#8a5cd6,#6d4aa7); color:#fff; }
+  .dir-tatami .detail-body{ padding:4px 16px 16px; }
+  .dir-tatami .tabbar{ display:flex; justify-content:space-around; padding:12px 0 16px; background:#fff; margin-top:14px; border-top:1px solid #ececf0; font-size:10px; color:#9a9aa4; }
+  .dir-tatami .tabbar .on{ color:#6d4aa7; font-weight:700; }
+
+  /* ============ DIREZIONE 3 — INK (scura, drammatica) ============ */
+  .dir-ink .screen{ background:#141319; color:#f0eef6; font-family:var(--font-body); }
+  .dir-ink .status{ color:#f0eef6; }
+  .dir-ink .head-app{ padding:6px 20px 12px; }
+  .dir-ink .head-app .kanji{ font-family:var(--font-serif); font-size:34px; letter-spacing:.04em; background:linear-gradient(90deg,#b98bff,#8a5cd6); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .dir-ink .head-app .sub{ font-size:11px; color:#7c7a8a; letter-spacing:.24em; text-transform:uppercase; }
+  .dir-ink .searchbar{ margin:0 16px; padding:11px 14px; border-radius:12px; background:#20202a; color:#7c7a8a; border:1px solid #2c2b38; }
+  .dir-ink .filters{ padding:14px 16px 8px; display:flex; gap:8px; }
+  .dir-ink .filters .chip{ background:#20202a; color:#b7b5c6; border:1px solid #2c2b38; }
+  .dir-ink .filters .chip.on{ background:linear-gradient(90deg,#8a5cd6,#b98bff); color:#12111a; border:0; }
+  .dir-ink .item{ padding:14px 18px; display:flex; align-items:center; gap:12px; border-bottom:1px solid #201f2a; }
+  .dir-ink .jp{ font-size:16px; } .dir-ink .it{ color:#8886a0; }
+  .dir-ink .rail{ width:3px; height:38px; border-radius:3px; }
+  .dir-ink .green{ color:#4bd88a; } .dir-ink .bg-green{ background:rgba(75,216,138,.14); color:#4bd88a; }
+  .dir-ink .red{ color:#ff6b64; } .dir-ink .bg-red{ background:rgba(255,107,100,.14); color:#ff6b64; }
+  .dir-ink .bg-purple{ background:rgba(138,92,214,.2); color:#b98bff; }
+  .dir-ink .media{ height:135px; background:radial-gradient(120% 120% at 30% 20%,#2a2440,#141319); color:#b98bff; border-bottom:1px solid #201f2a; }
+  .dir-ink .detail-body{ padding:16px 18px; }
+
+  .note{ font-size:12px; color:var(--muted); line-height:1.55; }
+  .note b{ color:var(--ink); }
+</style>
+
+<div class="wrap">
+  <header class="head">
+    <div class="eyebrow">Judo · App — Proposte interfaccia</div>
+    <h1>Tre direzioni, una palette</h1>
+    <p class="lede">Stesse funzioni (ricerca, filtri per categoria e cintura, preferiti, scheda con media placeholder) rese in tre stili. Palette base: bianco, verde, rosso, viola. Verde&nbsp;=&nbsp;proiezioni (nage-waza), rosso&nbsp;=&nbsp;controlli/leve (katame-waza), viola&nbsp;=&nbsp;kata e colore guida dell'app. Guarda lista + scheda dettaglio di ciascuna e dimmi quale ti convince.</p>
+  </header>
+
+  <div class="grid">
+
+    <!-- ===================== 1. DOJO ===================== -->
+    <div class="col dir-dojo">
+      <div class="col-head">
+        <h2>1 · Dojo</h2>
+        <div class="tag">Bianco pieno, spaziosa, quasi da libro. Tradizione e rispetto: pochi colori, tipografia curata, il viola solo come accento. Elegante e sobria.</div>
+        <div class="swatches">
+          <div class="sw" style="background:#fbfbf9"></div>
+          <div class="sw" style="background:#6d4aa7"></div>
+          <div class="sw" style="background:#2f8f5b"></div>
+          <div class="sw" style="background:#c0413b"></div>
+          <div class="sw" style="background:#20201d"></div>
+        </div>
+      </div>
+
+      <div class="phone"><div class="screen">
+        <div class="status"><span>9:41</span><span>judo</span></div>
+        <div class="head-app">
+          <div class="kanji">柔道</div>
+          <div class="sub">Tecniche</div>
+        </div>
+        <div class="searchbar row"><span>⌕</span><span>Cerca tecnica…</span></div>
+        <div class="filters chips">
+          <span class="chip on">Tutte</span>
+          <span class="chip">Nage-waza</span>
+          <span class="chip">Katame-waza</span>
+          <span class="chip">Gialla</span>
+        </div>
+        <div class="stack">
+          <div class="item row">
+            <span class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></span>
+            <div><div class="jp">Osoto-gari</div><div class="it">Grande falciata esterna</div></div>
+            <span class="dot bg-green fav" style="width:auto;height:auto;padding:3px 8px;border-radius:999px;font-size:10px;font-weight:700">Proiezione</span>
+          </div>
+          <div class="item row">
+            <span class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></span>
+            <div><div class="jp">O-goshi</div><div class="it">Anca maggiore</div></div>
+            <span class="fav bg-green" style="padding:3px 8px;border-radius:999px;font-size:10px;font-weight:700">Proiezione</span>
+          </div>
+          <div class="item row">
+            <span class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></span>
+            <div><div class="jp">Kesa-gatame</div><div class="it">Controllo a sciarpa</div></div>
+            <span class="fav bg-red" style="padding:3px 8px;border-radius:999px;font-size:10px;font-weight:700">Controllo</span>
+          </div>
+        </div>
+      </div></div>
+
+      <div class="phone mini"><div class="screen">
+        <div class="status"><span>‹ Tecniche</span><span>★</span></div>
+        <div class="media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></div>
+        <div class="detail-body stack" style="gap:10px">
+          <div><div class="jp" style="font-size:22px">Osoto-gari</div><div class="it">Grande falciata esterna</div></div>
+          <div class="chips">
+            <span class="chip bg-green">Nage-waza</span>
+            <span class="chip bg-purple">Cintura gialla</span>
+          </div>
+          <div class="note" style="color:#8a8a80">Si sbilancia uke all'indietro e si falcia la gamba d'appoggio con il retro della propria gamba…</div>
+          <div class="label" style="color:#6d4aa7">▶ Video in arrivo</div>
+        </div>
+      </div></div>
+    </div>
+
+    <!-- ===================== 2. TATAMI ===================== -->
+    <div class="col dir-tatami">
+      <div class="col-head">
+        <h2>2 · Tatami</h2>
+        <div class="tag">Moderna e amichevole: card morbide, colori pieni per categoria, tab bar in basso. Look da app consumer, invitante per i principianti. <b>Consigliata.</b></div>
+        <div class="swatches">
+          <div class="sw" style="background:#ffffff"></div>
+          <div class="sw" style="background:#6d4aa7"></div>
+          <div class="sw" style="background:#1f9e60"></div>
+          <div class="sw" style="background:#d23e3a"></div>
+          <div class="sw" style="background:#171821"></div>
+        </div>
+      </div>
+
+      <div class="phone"><div class="screen">
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="head-app"><h3>Tecniche</h3><div class="av"></div></div>
+        <div class="searchbar row"><span>⌕</span><span>Cerca…</span></div>
+        <div class="filters">
+          <span class="chip on">Tutte</span>
+          <span class="chip">Nage-waza</span>
+          <span class="chip">Katame</span>
+        </div>
+        <div class="cards">
+          <div class="card row">
+            <span class="thumb g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></span>
+            <div><div class="jp">Uchi-mata</div><div class="it">Falciata interna coscia</div></div>
+            <span class="fav" style="color:#d23e3a">♥</span>
+          </div>
+          <div class="card row">
+            <span class="thumb g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></span>
+            <div><div class="jp">Seoi-nage</div><div class="it">Proiezione di spalla</div></div>
+            <span class="fav" style="color:#c9c9d0">♡</span>
+          </div>
+          <div class="card row">
+            <span class="thumb r"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></span>
+            <div><div class="jp">Juji-gatame</div><div class="it">Leva al gomito</div></div>
+            <span class="fav" style="color:#c9c9d0">♡</span>
+          </div>
+        </div>
+        <div class="tabbar">
+          <span class="on">Tecniche</span><span>Kata</span><span>Preferiti</span>
+        </div>
+      </div></div>
+
+      <div class="phone mini"><div class="screen">
+        <div class="status"><span>‹</span><span>♥</span></div>
+        <div class="media"><span class="ph">▶ Video in arrivo</span></div>
+        <div class="detail-body stack" style="gap:10px">
+          <div><div class="jp" style="font-size:21px;font-weight:800">Uchi-mata</div><div class="it">Falciata interna coscia</div></div>
+          <div class="chips">
+            <span class="chip bg-green">Nage-waza</span>
+            <span class="chip bg-purple">Cintura verde</span>
+          </div>
+          <div class="note" style="color:#9a9aa4">Sollevando la gamba interna di uke lo si proietta in avanti ruotando…</div>
+        </div>
+      </div></div>
+    </div>
+
+    <!-- ===================== 3. INK ===================== -->
+    <div class="col dir-ink">
+      <div class="col-head">
+        <h2>3 · Ink</h2>
+        <div class="tag">Scura e d'impatto: sfondo notte, viola luminoso, accenti neon. Sportiva e premium, i colori delle categorie spiccano sul nero. Più "atleta".</div>
+        <div class="swatches">
+          <div class="sw" style="background:#141319"></div>
+          <div class="sw" style="background:#b98bff"></div>
+          <div class="sw" style="background:#4bd88a"></div>
+          <div class="sw" style="background:#ff6b64"></div>
+          <div class="sw" style="background:#f0eef6"></div>
+        </div>
+      </div>
+
+      <div class="phone"><div class="screen">
+        <div class="status"><span>9:41</span><span>柔</span></div>
+        <div class="head-app">
+          <div class="kanji">柔道</div>
+          <div class="sub">Tecniche</div>
+        </div>
+        <div class="searchbar row"><span>⌕</span><span>Cerca tecnica…</span></div>
+        <div class="filters">
+          <span class="chip on">Tutte</span>
+          <span class="chip">Nage-waza</span>
+          <span class="chip">Katame</span>
+        </div>
+        <div class="stack">
+          <div class="item">
+            <span class="rail bg-green" style="background:#4bd88a"></span>
+            <div style="flex:1"><div class="jp">Osoto-gari</div><div class="it">Grande falciata esterna</div></div>
+            <span class="chip bg-green">Nage</span>
+          </div>
+          <div class="item">
+            <span class="rail" style="background:#4bd88a"></span>
+            <div style="flex:1"><div class="jp">Harai-goshi</div><div class="it">Anca spazzata</div></div>
+            <span class="chip bg-green">Nage</span>
+          </div>
+          <div class="item">
+            <span class="rail" style="background:#ff6b64"></span>
+            <div style="flex:1"><div class="jp">Juji-gatame</div><div class="it">Leva al gomito</div></div>
+            <span class="chip bg-red">Katame</span>
+          </div>
+          <div class="item" style="border-bottom:0">
+            <span class="rail" style="background:#b98bff"></span>
+            <div style="flex:1"><div class="jp">Nage-no-kata</div><div class="it">Forme di proiezione</div></div>
+            <span class="chip bg-purple">Kata</span>
+          </div>
+        </div>
+      </div></div>
+
+      <div class="phone mini"><div class="screen">
+        <div class="status"><span>‹ Tecniche</span><span>★</span></div>
+        <div class="media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="9" cy="5" r="2"/><path d="M9 7v6l-3 5M9 11l5 1 3 4M9 13l4-1"/></svg></div>
+        <div class="detail-body stack" style="gap:10px">
+          <div><div class="jp" style="font-size:22px">Osoto-gari</div><div class="it">Grande falciata esterna</div></div>
+          <div class="chips">
+            <span class="chip bg-green">Nage-waza</span>
+            <span class="chip bg-purple">Cintura gialla</span>
+          </div>
+          <div class="note" style="color:#8886a0">Si sbilancia uke all'indietro e si falcia la gamba d'appoggio…</div>
+          <div class="label" style="color:#b98bff">▶ Video in arrivo</div>
+        </div>
+      </div></div>
+    </div>
+
+  </div>
+
+  <p class="note" style="max-width:760px;margin:40px auto 0">Nota: i nomi tecnica, le categorie e le cinture sono esempi reali. I riquadri media sono i <b>placeholder</b> che sostituiremo con le gif/video girati in palestra. Su tutte e tre le direzioni le funzioni sono identiche — cambia solo il vestito.</p>
+</div>

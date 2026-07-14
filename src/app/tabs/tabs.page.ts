@@ -1,7 +1,7 @@
 import { Component, EnvironmentInjector, inject } from '@angular/core';
 import { IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
-import { bodyOutline, albumsOutline, heartOutline } from 'ionicons/icons';
+import { bodyOutline, albumsOutline, heartOutline, ribbonOutline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-tabs',
@@ -13,6 +13,6 @@ export class TabsPage {
   public environmentInjector = inject(EnvironmentInjector);
 
   constructor() {
-    addIcons({ 'body-outline': bodyOutline, 'albums-outline': albumsOutline, 'heart-outline': heartOutline });
+    addIcons({ 'body-outline': bodyOutline, 'albums-outline': albumsOutline, 'heart-outline': heartOutline, 'ribbon-outline': ribbonOutline });
   }
 }

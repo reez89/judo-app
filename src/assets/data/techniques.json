@@ -635,5 +635,187 @@
     ],
     "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
     "tags": ["strangolamento", "controllo"]
+  },
+  {
+    "id": "sumi-gaeshi",
+    "nomeGiapponese": "Sumi-gaeshi",
+    "nomeItaliano": "Ribaltamento d'angolo",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Tecnica di sacrificio: tori si lascia cadere all'indietro trascinando uke con una presa alla cintura o alla schiena, facendolo ruotare oltre la testa.",
+    "passaggi": [
+      "Presa profonda alla schiena o alla cintura di uke, corpo a corpo.",
+      "Squilibrio all'indietro e caduta controllata sul dorso.",
+      "Sollevamento con le gambe per far ruotare uke oltre la testa di tori."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio"]
+  },
+  {
+    "id": "tani-otoshi",
+    "nomeGiapponese": "Tani-otoshi",
+    "nomeItaliano": "Caduta nella valle",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Tecnica di sacrificio laterale-posteriore: tori blocca una gamba di uke dietro di sé e si lascia cadere per proiettarlo oltre l'ostacolo.",
+    "passaggi": [
+      "Squilibrio all'indietro di uke controllando il busto.",
+      "Posizionamento della propria gamba tesa dietro una gamba di uke.",
+      "Caduta controllata di lato mentre si trattiene la presa.",
+      "Proiezione di uke oltre l'ostacolo della gamba."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio"]
+  },
+  {
+    "id": "hane-makikomi",
+    "nomeGiapponese": "Hane-makikomi",
+    "nomeItaliano": "Avvolgimento a molla",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Variante makikomi di hane-goshi: tori avvolge il braccio di uke e si lascia cadere in avanti per completare la proiezione.",
+    "passaggi": [
+      "Squilibrio in avanti di uke con inserimento della gamba a molla come in hane-goshi.",
+      "Avvolgimento del braccio di uke con il proprio braccio.",
+      "Caduta controllata in avanti trascinando uke nella rotazione."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio", "makikomi"]
+  },
+  {
+    "id": "sukui-nage",
+    "nomeGiapponese": "Sukui-nage",
+    "nomeItaliano": "Proiezione a cucchiaio",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Proiezione senza presa al judogi: tori solleva uke abbracciandone le cosce o il bacino e lo fa ruotare a terra.",
+    "passaggi": [
+      "Abbassamento del baricentro entrando sotto uke.",
+      "Presa a cucchiaio delle cosce o del bacino di uke.",
+      "Sollevamento e rotazione del busto per proiettare uke."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sollevamento"]
+  },
+  {
+    "id": "utsuri-goshi",
+    "nomeGiapponese": "Utsuri-goshi",
+    "nomeItaliano": "Cambio d'anca",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Contro-proiezione d'anca: tori intercetta uke che tenta una proiezione d'anca sollevandolo e ribaltando la rotazione a proprio favore.",
+    "passaggi": [
+      "Intercettazione di uke durante un tentativo di proiezione d'anca.",
+      "Sollevamento di uke sul proprio bacino contrastando la rotazione originale.",
+      "Ribaltamento della rotazione e proiezione a favore di tori."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "anca", "contrattacco"]
+  },
+  {
+    "id": "o-guruma",
+    "nomeGiapponese": "O-guruma",
+    "nomeItaliano": "Grande ruota",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Proiezione simile a uchi-mata ma con la gamba tesa e alta come perno esterno, facendo ruotare uke sopra di essa.",
+    "passaggi": [
+      "Squilibrio in avanti di uke.",
+      "Rotazione entrando con la gamba tesa alta davanti al corpo di uke.",
+      "Proiezione facendo ruotare uke sopra la gamba tesa."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba"]
+  },
+  {
+    "id": "soto-makikomi",
+    "nomeGiapponese": "Soto-makikomi",
+    "nomeItaliano": "Avvolgimento esterno",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Proiezione in cui tori avvolge il braccio di uke dall'esterno e si lascia cadere per trascinarlo nella rotazione.",
+    "passaggi": [
+      "Squilibrio in avanti-laterale di uke.",
+      "Avvolgimento del braccio di uke dall'esterno con il proprio braccio e fianco.",
+      "Caduta controllata di lato trascinando uke nella rotazione."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio", "makikomi"]
+  },
+  {
+    "id": "uki-otoshi",
+    "nomeGiapponese": "Uki-otoshi",
+    "nomeItaliano": "Caduta fluttuante",
+    "categoria": "nage-waza",
+    "cintura": "blu",
+    "descrizione": "Proiezione senza appoggio di gamba o anca: si squilibra uke completamente in avanti fino a farlo cadere solo con la trazione delle braccia.",
+    "passaggi": [
+      "Trazione circolare che squilibra completamente uke in avanti.",
+      "Abbassamento del baricentro senza contatto di gamba o anca.",
+      "Accompagnamento della caduta di uke con le braccia fino a terra."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "squilibrio"]
+  },
+  {
+    "id": "kataha-jime",
+    "nomeGiapponese": "Kataha-jime",
+    "nomeItaliano": "Strangolamento a mezza spalla",
+    "categoria": "katame-waza",
+    "cintura": "blu",
+    "descrizione": "Strangolamento da dietro che combina una presa al bavero con un braccio di uke bloccato dietro la schiena.",
+    "passaggi": [
+      "Posizionamento dietro la schiena di uke, controllando il busto con le gambe.",
+      "Una mano afferra il bavero passando intorno al collo.",
+      "L'altro braccio di uke viene bloccato dietro la schiena.",
+      "Trazione del bavero per chiudere lo strangolamento."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["strangolamento", "controllo"]
+  },
+  {
+    "id": "ryote-jime",
+    "nomeGiapponese": "Ryote-jime",
+    "nomeItaliano": "Strangolamento a due mani",
+    "categoria": "katame-waza",
+    "cintura": "blu",
+    "descrizione": "Strangolamento frontale con entrambe le mani sui baveri di uke senza incrociare le braccia.",
+    "passaggi": [
+      "Posizionamento frontale o superiore rispetto a uke.",
+      "Presa di entrambi i baveri senza incrociare le braccia.",
+      "Trazione verso il basso e verso l'esterno per chiudere lo strangolamento."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["strangolamento", "controllo"]
+  },
+  {
+    "id": "ude-gatame",
+    "nomeGiapponese": "Ude-gatame",
+    "nomeItaliano": "Leva al braccio dritta",
+    "categoria": "katame-waza",
+    "cintura": "blu",
+    "descrizione": "Leva articolare al gomito eseguita bloccando il braccio teso di uke contro il proprio corpo, senza passare la gamba.",
+    "passaggi": [
+      "Controllo del polso di uke con il braccio teso.",
+      "Blocco del gomito di uke contro il proprio petto o ascella.",
+      "Estensione applicando pressione sull'articolazione del gomito."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["leva", "controllo"]
+  },
+  {
+    "id": "waki-gatame",
+    "nomeGiapponese": "Waki-gatame",
+    "nomeItaliano": "Leva al braccio sotto ascella",
+    "categoria": "katame-waza",
+    "cintura": "blu",
+    "descrizione": "Leva articolare al gomito eseguita bloccando il braccio di uke sotto la propria ascella, applicabile anche in piedi.",
+    "passaggi": [
+      "Controllo del polso di uke con entrambe le mani.",
+      "Blocco del braccio di uke sotto la propria ascella con il gomito rivolto verso l'alto.",
+      "Pressione del busto verso il basso per applicare la leva."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["leva", "controllo"]
   }
 ]

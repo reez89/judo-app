@@ -1,0 +1,286 @@
+[
+  {
+    "id": "kyu-6",
+    "order": 1,
+    "gradeLabel": "6° Kyu",
+    "beltColor": "bianca",
+    "disclaimer": "Il programma delle cinture colorate è una proposta didattica basata sulla progressione tecnica tradizionale del Gokyo. La FIJLKAM affida la graduazione dei Kyu all'Insegnante Tecnico Sociale; il programma effettivo può quindi variare da una società all'altra.",
+    "sections": [
+      {
+        "id": "fondamentali",
+        "title": "Fondamentali",
+        "items": [
+          "Significato generale del Judo",
+          "Comportamento e sicurezza nel dojo",
+          "Tori e Uke",
+          "Ritsu-rei (saluto in piedi)",
+          "Za-rei (saluto in ginocchio)",
+          "Corretta vestizione del judogi",
+          "Corretta legatura della cintura",
+          "Shizen-tai (postura naturale)",
+          "Jigo-tai (postura difensiva)",
+          "Kumi-kata (presa)",
+          "Shintai (spostamenti)",
+          "Tai-sabaki (rotazione del corpo)",
+          "Introduzione a Kuzushi, Tsukuri e Kake"
+        ]
+      },
+      {
+        "id": "ukemi",
+        "title": "Ukemi",
+        "items": [
+          "Ushiro Ukemi (caduta all'indietro)",
+          "Yoko Ukemi (caduta laterale)",
+          "Mae Ukemi (caduta in avanti)",
+          "Zempo Kaiten Ukemi (caduta rotolata in avanti)",
+          "Esercizi di caduta a destra e a sinistra"
+        ]
+      },
+      {
+        "id": "pratica",
+        "title": "Pratica",
+        "items": [
+          "Esercizi di equilibrio",
+          "Spostamenti con il compagno",
+          "Controllo del corpo e della distanza",
+          "Forme propedeutiche di Randori",
+          "Rispetto del compagno e interruzione immediata su segnale"
+        ]
+      }
+    ],
+    "sources": [
+      { "title": "Regolamento Organico Federale FIJLKAM (art. 92-96)", "url": "https://www.fijlkam.it/puglia/images/puglia/2025_-_Testo_ROF_approvato_GN_CONI_14-04-2025.pdf" }
+    ]
+  },
+  {
+    "id": "kyu-5",
+    "order": 2,
+    "gradeLabel": "5° Kyu",
+    "beltColor": "gialla",
+    "disclaimer": "Il programma delle cinture colorate è una proposta didattica basata sulla progressione tecnica tradizionale del Gokyo. La FIJLKAM affida la graduazione dei Kyu all'Insegnante Tecnico Sociale; il programma effettivo può quindi variare da una società all'altra.",
+    "sections": [
+      {
+        "id": "gokyo-1",
+        "title": "Gokyo — 1° gruppo",
+        "techniqueIds": ["de-ashi-barai", "hiza-guruma", "sasae-tsurikomi-ashi", "uki-goshi", "osoto-gari", "o-goshi", "ouchi-gari", "seoi-nage"]
+      },
+      {
+        "id": "varianti-seoi",
+        "title": "Varianti di Seoi Nage",
+        "techniqueIds": ["ippon-seoi-nage", "morote-seoi-nage", "eri-seoi-nage"]
+      },
+      {
+        "id": "osaekomi",
+        "title": "Osaekomi-waza",
+        "techniqueIds": ["kesa-gatame", "yoko-shiho-gatame", "kami-shiho-gatame", "tate-shiho-gatame"]
+      },
+      {
+        "id": "competenze",
+        "title": "Competenze",
+        "items": [
+          "Entrata nelle immobilizzazioni fondamentali",
+          "Mantenimento controllato dell'immobilizzazione",
+          "Riconoscimento di Osaekomi e Toketa",
+          "Uscite elementari dalle immobilizzazioni",
+          "Collegamento elementare tra proiezione e immobilizzazione"
+        ]
+      }
+    ],
+    "sources": [
+      { "title": "Regolamento Organico Federale FIJLKAM (art. 92-96)", "url": "https://www.fijlkam.it/puglia/images/puglia/2025_-_Testo_ROF_approvato_GN_CONI_14-04-2025.pdf" }
+    ]
+  },
+  {
+    "id": "kyu-4",
+    "order": 3,
+    "gradeLabel": "4° Kyu",
+    "beltColor": "arancione",
+    "disclaimer": "Il programma delle cinture colorate è una proposta didattica basata sulla progressione tecnica tradizionale del Gokyo. La FIJLKAM affida la graduazione dei Kyu all'Insegnante Tecnico Sociale; il programma effettivo può quindi variare da una società all'altra.",
+    "sections": [
+      {
+        "id": "gokyo-2",
+        "title": "Gokyo — 2° gruppo",
+        "techniqueIds": ["kosoto-gari", "kouchi-gari", "koshi-guruma", "tsuri-komi-goshi", "okuri-ashi-barai", "tai-otoshi", "harai-goshi", "uchi-mata"]
+      },
+      {
+        "id": "osaekomi-aggiuntive",
+        "title": "Osaekomi-waza aggiuntive",
+        "techniqueIds": ["ushiro-kesa-gatame", "kata-gatame", "makura-kesa-gatame"]
+      },
+      {
+        "id": "hairi-kata",
+        "title": "Hairi-kata elementari",
+        "items": [
+          "Entrata su Uke in posizione prona",
+          "Entrata su Uke in quadrupedia",
+          "Ribaltamento dalla posizione laterale",
+          "Superamento elementare delle gambe",
+          "Controllo dalla posizione superiore"
+        ]
+      },
+      {
+        "id": "collegamenti",
+        "title": "Collegamenti suggeriti",
+        "items": [
+          "O Soto Gari → Kesa Gatame",
+          "O Goshi → Kesa Gatame",
+          "Seoi Nage → Yoko Shiho Gatame",
+          "O Uchi Gari → immobilizzazione",
+          "Ko Uchi Gari → immobilizzazione"
+        ]
+      }
+    ],
+    "sources": [
+      { "title": "Regolamento Organico Federale FIJLKAM (art. 92-96)", "url": "https://www.fijlkam.it/puglia/images/puglia/2025_-_Testo_ROF_approvato_GN_CONI_14-04-2025.pdf" }
+    ]
+  },
+  {
+    "id": "kyu-3",
+    "order": 4,
+    "gradeLabel": "3° Kyu",
+    "beltColor": "verde",
+    "disclaimer": "Il programma delle cinture colorate è una proposta didattica basata sulla progressione tecnica tradizionale del Gokyo. La FIJLKAM affida la graduazione dei Kyu all'Insegnante Tecnico Sociale; il programma effettivo può quindi variare da una società all'altra.",
+    "sections": [
+      {
+        "id": "gokyo-3",
+        "title": "Gokyo — 3° gruppo",
+        "techniqueIds": ["kosoto-gake", "tsuri-goshi", "yoko-otoshi", "ashi-guruma", "hane-goshi", "harai-tsurikomi-ashi", "tomoe-nage", "kata-guruma"]
+      },
+      {
+        "id": "shime-waza",
+        "title": "Shime-waza",
+        "techniqueIds": ["nami-juji-jime", "gyaku-juji-jime", "kata-juji-jime"]
+      },
+      {
+        "id": "kansetsu-waza",
+        "title": "Kansetsu-waza",
+        "techniqueIds": ["ude-garami", "juji-gatame"]
+      },
+      {
+        "id": "competenze-dinamiche",
+        "title": "Competenze dinamiche",
+        "items": [
+          "Individuazione del Tokui-waza",
+          "Esecuzione a destra e sinistra",
+          "Attacco durante lo spostamento",
+          "Introduzione ai Renraku-waza",
+          "Difese tramite postura, movimento e Tai-sabaki",
+          "Continuità tra Tachi-waza e Ne-waza"
+        ]
+      },
+      {
+        "id": "renraku-waza",
+        "title": "Renraku-waza suggeriti",
+        "items": [
+          "O Uchi Gari → Uchi Mata",
+          "Ko Uchi Gari → Seoi Nage",
+          "O Soto Gari → O Uchi Gari",
+          "De Ashi Barai → O Soto Gari",
+          "Uchi Mata → O Uchi Gari"
+        ]
+      }
+    ],
+    "sources": [
+      { "title": "Regolamento Organico Federale FIJLKAM (art. 92-96)", "url": "https://www.fijlkam.it/puglia/images/puglia/2025_-_Testo_ROF_approvato_GN_CONI_14-04-2025.pdf" }
+    ]
+  },
+  {
+    "id": "kyu-2",
+    "order": 5,
+    "gradeLabel": "2° Kyu",
+    "beltColor": "blu",
+    "disclaimer": "Il programma delle cinture colorate è una proposta didattica basata sulla progressione tecnica tradizionale del Gokyo. La FIJLKAM affida la graduazione dei Kyu all'Insegnante Tecnico Sociale; il programma effettivo può quindi variare da una società all'altra.",
+    "sections": [
+      {
+        "id": "gokyo-4",
+        "title": "Gokyo — 4° gruppo",
+        "techniqueIds": ["sumi-gaeshi", "tani-otoshi", "hane-makikomi", "sukui-nage", "utsuri-goshi", "o-guruma", "soto-makikomi", "uki-otoshi"]
+      },
+      {
+        "id": "shime-waza",
+        "title": "Shime-waza",
+        "techniqueIds": ["hadaka-jime", "okuri-eri-jime", "kataha-jime", "ryote-jime"]
+      },
+      {
+        "id": "kansetsu-waza",
+        "title": "Kansetsu-waza",
+        "techniqueIds": ["ude-gatame", "waki-gatame"]
+      },
+      {
+        "id": "competenze-dinamiche",
+        "title": "Competenze dinamiche",
+        "items": [
+          "Renraku-waza avanti/indietro",
+          "Renraku-waza destra/sinistra",
+          "Difese contro le tecniche fondamentali",
+          "Introduzione ai Gaeshi-waza",
+          "Hairi-kata da posizioni differenti",
+          "Randori in piedi",
+          "Randori a terra",
+          "Passaggio continuo Tachi-waza → Ne-waza"
+        ]
+      },
+      {
+        "id": "gaeshi-waza",
+        "title": "Gaeshi-waza suggeriti",
+        "items": [
+          "O Uchi Gari → O Uchi Gaeshi",
+          "Ko Uchi Gari → Ko Uchi Gaeshi",
+          "O Soto Gari → O Soto Gaeshi",
+          "Uchi Mata → Uchi Mata Sukashi",
+          "Uchi Mata → Uchi Mata Gaeshi"
+        ]
+      }
+    ],
+    "sources": [
+      { "title": "Regolamento Organico Federale FIJLKAM (art. 92-96)", "url": "https://www.fijlkam.it/puglia/images/puglia/2025_-_Testo_ROF_approvato_GN_CONI_14-04-2025.pdf" }
+    ]
+  },
+  {
+    "id": "kyu-1",
+    "order": 6,
+    "gradeLabel": "1° Kyu",
+    "beltColor": "marrone",
+    "disclaimer": "Il programma delle cinture colorate è una proposta didattica basata sulla progressione tecnica tradizionale del Gokyo. La FIJLKAM affida la graduazione dei Kyu all'Insegnante Tecnico Sociale; il programma effettivo può quindi variare da una società all'altra.",
+    "sections": [
+      {
+        "id": "gokyo-5",
+        "title": "Gokyo — 5° gruppo",
+        "techniqueIds": ["osoto-guruma", "uki-waza", "yoko-wakare", "yoko-guruma", "ushiro-goshi", "ura-nage", "sumi-otoshi", "yoko-gake"]
+      },
+      {
+        "id": "competenze-cumulative",
+        "title": "Competenze cumulative",
+        "items": [
+          "Conoscenza dei 40 lanci del Gokyo",
+          "Varianti principali di Seoi Nage",
+          "Osaekomi-waza e uscite",
+          "Principali Shime-waza",
+          "Principali Kansetsu-waza",
+          "Hairi-kata",
+          "Renraku-waza",
+          "Gaeshi-waza",
+          "Difese",
+          "Continuità Tachi-waza/Ne-waza",
+          "Tokui-waza",
+          "Randori in piedi e a terra",
+          "Nozioni arbitrali fondamentali"
+        ]
+      },
+      {
+        "id": "preparazione-dan",
+        "title": "Preparazione consigliata al 1° Dan",
+        "items": [
+          "1°, 2° e 3° gruppo del Nage no Kata",
+          "1° gruppo del Katame no Kata oppure 1° gruppo del Ju no Kata",
+          "Cerimoniale di apertura e chiusura",
+          "Ruoli di Tori e Uke",
+          "Esecuzione a destra e sinistra dove prevista"
+        ]
+      }
+    ],
+    "sources": [
+      { "title": "Regolamento Organico Federale FIJLKAM (art. 92-96)", "url": "https://www.fijlkam.it/puglia/images/puglia/2025_-_Testo_ROF_approvato_GN_CONI_14-04-2025.pdf" }
+    ]
+  }
+]

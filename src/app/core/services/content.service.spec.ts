@@ -27,4 +27,16 @@ describe('ContentService', () => {
     httpMock.expectOne('assets/data/techniques.json')
       .flush([{ id: 'osoto-gari' }, { id: 'o-goshi' }]);
   });
+
+  it('carica i gradi Kyu dal JSON', () => {
+    service.getBeltGrades().subscribe(list => expect(list.length).toBe(1));
+    httpMock.expectOne('assets/data/belt-grades.json')
+      .flush([{ id: 'kyu-6' }]);
+  });
+
+  it('getBeltGrade ritorna quello con id corrispondente', () => {
+    service.getBeltGrade('kyu-5').subscribe(g => expect(g?.id).toBe('kyu-5'));
+    httpMock.expectOne('assets/data/belt-grades.json')
+      .flush([{ id: 'kyu-6' }, { id: 'kyu-5' }]);
+  });
 });

@@ -1,7 +1,9 @@
 import techniques from '../../../assets/data/techniques.json';
 import kata from '../../../assets/data/kata.json';
+import beltGrades from '../../../assets/data/belt-grades.json';
 import { Technique } from './technique.model';
 import { Kata } from './kata.model';
+import { BeltGrade } from './belt-grade.model';
 
 const CATEGORIE = ['nage-waza', 'katame-waza'];
 const CINTURE = ['bianca', 'gialla', 'arancione', 'verde', 'blu', 'marrone'];
@@ -97,5 +99,30 @@ describe('Integrità dati contenuti', () => {
 
   it('il totale delle tecniche corrisponde a tutti i 40 lanci Gokyo + varianti + katame-waza', () => {
     expect((techniques as Technique[]).length).toBe(61);
+  });
+
+  it('ci sono esattamente 6 gradi Kyu ordinati da 1 (bianca) a 6 (marrone)', () => {
+    const grades = beltGrades as BeltGrade[];
+    expect(grades.length).toBe(6);
+    const orders = grades.map(g => g.order).sort((a, b) => a - b);
+    expect(orders).toEqual([1, 2, 3, 4, 5, 6]);
+  });
+
+  it('ogni techniqueId referenziato nei gradi Kyu esiste in techniques.json', () => {
+    const techniqueIds = new Set((techniques as Technique[]).map(t => t.id));
+    (beltGrades as BeltGrade[]).forEach(grade => {
+      grade.sections.forEach(section => {
+        (section.techniqueIds ?? []).forEach(id => {
+          expect(techniqueIds.has(id)).withContext(`${grade.id} → ${section.id} → ${id}`).toBeTrue();
+        });
+      });
+    });
+  });
+
+  it('ogni grado ha un disclaimer e almeno una fonte', () => {
+    (beltGrades as BeltGrade[]).forEach(g => {
+      expect(g.disclaimer).toBeTruthy();
+      expect(g.sources.length).toBeGreaterThan(0);
+    });
   });
 });

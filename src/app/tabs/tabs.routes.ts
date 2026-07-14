@@ -32,6 +32,16 @@ export const routes: Routes = [
           import('../features/preferiti/preferiti.page').then((m) => m.PreferitiPage),
       },
       {
+        path: 'cinture',
+        loadComponent: () =>
+          import('../features/cinture/belt-grade-list.page').then((m) => m.BeltGradeListPage),
+      },
+      {
+        path: 'cinture/:id',
+        loadComponent: () =>
+          import('../features/cinture/belt-grade-detail.page').then((m) => m.BeltGradeDetailPage),
+      },
+      {
         path: '',
         redirectTo: '/tabs/tecniche',
         pathMatch: 'full',

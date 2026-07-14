@@ -421,5 +421,82 @@
     ],
     "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
     "tags": ["proiezione", "spalla"]
+  },
+  {
+    "id": "kosoto-gari",
+    "nomeGiapponese": "Kosoto-gari",
+    "nomeItaliano": "Piccola falciata esterna",
+    "categoria": "nage-waza",
+    "cintura": "arancione",
+    "descrizione": "Proiezione di gamba: si falcia da fuori il tallone della gamba d'appoggio di uke con un movimento breve e secco.",
+    "passaggi": [
+      "Squilibrio di uke all'indietro su una gamba.",
+      "Falciata del tallone d'appoggio dall'esterno con la pianta del piede.",
+      "Spinta in avanti-basso del busto per completare la caduta.",
+      "Controllo del bavero fino a terra."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba"]
+  },
+  {
+    "id": "koshi-guruma",
+    "nomeGiapponese": "Koshi-guruma",
+    "nomeItaliano": "Ruota d'anca",
+    "categoria": "nage-waza",
+    "cintura": "arancione",
+    "descrizione": "Proiezione d'anca in cui il braccio controlla il collo di uke anziché il bavero, facendolo ruotare sopra il bacino.",
+    "passaggi": [
+      "Presa al collo di uke passando il braccio dietro la nuca.",
+      "Rotazione e inserimento del bacino sotto il baricentro di uke.",
+      "Sollevamento e proiezione ruotando busto e braccio di controllo."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "anca"]
+  },
+  {
+    "id": "okuri-ashi-barai",
+    "nomeGiapponese": "Okuri-ashi-barai",
+    "nomeItaliano": "Spazzata di accompagnamento ai piedi",
+    "categoria": "nage-waza",
+    "cintura": "arancione",
+    "descrizione": "Proiezione di tempismo laterale: si spazzano entrambi i piedi di uke in sequenza mentre ci si sposta lateralmente.",
+    "passaggi": [
+      "Spostamento laterale che costringe uke a seguire con i piedi.",
+      "Sincronizzazione con l'istante in cui il piede di uke è leggero durante lo spostamento.",
+      "Spazzata del piede nella direzione dello spostamento.",
+      "Accompagnamento della caduta laterale con le braccia."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba", "tempismo"]
+  },
+  {
+    "id": "ushiro-kesa-gatame",
+    "nomeGiapponese": "Ushiro-kesa-gatame",
+    "nomeItaliano": "Controllo a sciarpa rovesciato",
+    "categoria": "katame-waza",
+    "cintura": "arancione",
+    "descrizione": "Variante di kesa-gatame con tori rivolto verso i piedi di uke anziché verso la testa, controllo del braccio invertito.",
+    "passaggi": [
+      "Posizione laterale rivolta verso i piedi di uke supino.",
+      "Controllo del braccio di uke sotto l'ascella con presa rovesciata.",
+      "Peso sul petto, gambe aperte per stabilità verso i piedi di uke."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["controllo", "immobilizzazione"]
+  },
+  {
+    "id": "makura-kesa-gatame",
+    "nomeGiapponese": "Makura-kesa-gatame",
+    "nomeItaliano": "Controllo a sciarpa a cuscino",
+    "categoria": "katame-waza",
+    "cintura": "arancione",
+    "descrizione": "Variante di kesa-gatame in cui la testa di uke resta imprigionata sotto l'ascella di tori come un cuscino, limitando ulteriormente i movimenti.",
+    "passaggi": [
+      "Posizione laterale rispetto a uke supino con la testa di uke sotto l'ascella.",
+      "Controllo del braccio vicino di uke stretto al fianco.",
+      "Peso sul petto mantenendo il capo di uke bloccato."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["controllo", "immobilizzazione"]
   }
 ]

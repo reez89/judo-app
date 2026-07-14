@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 import { FavoritesService } from './core/services/favorites.service';
 
@@ -8,7 +8,9 @@ import { FavoritesService } from './core/services/favorites.service';
   imports: [IonApp, IonRouterOutlet],
 })
 export class AppComponent {
-  constructor(private favorites: FavoritesService) {
+  private favorites = inject(FavoritesService);
+
+  constructor() {
     this.favorites.load();
   }
 }

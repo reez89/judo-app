@@ -5,6 +5,8 @@ import {
   IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonBackButton,
   IonSegment, IonSegmentButton, IonLabel, IonList, IonItem, IonIcon
 } from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { checkmarkCircle, checkmarkCircleOutline } from 'ionicons/icons';
 import { ContentService } from '../../core/services/content.service';
 import { BeltProgressService } from '../../core/services/belt-progress.service';
 import { Technique } from '../../core/models/technique.model';
@@ -87,6 +89,10 @@ export class BeltGradeDetailPage {
   private content = inject(ContentService);
   protected progress = inject(BeltProgressService);
   private id = this.route.snapshot.paramMap.get('id') ?? '';
+
+  constructor() {
+    addIcons({ 'checkmark-circle': checkmarkCircle, 'checkmark-circle-outline': checkmarkCircleOutline });
+  }
 
   private allTechniques = toSignal(this.content.getTechniques(), { initialValue: [] as Technique[] });
   grade = toSignal(this.content.getBeltGrade(this.id), { initialValue: undefined });

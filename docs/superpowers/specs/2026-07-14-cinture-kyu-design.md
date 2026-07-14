@@ -91,23 +91,25 @@ Fonte comune: Regolamento Organico Federale FIJLKAM (art. 92–96), URL da spec 
 
 ## 3. Correzioni a `techniques.json`
 
-**Cinture da correggere (12 record esistenti):**
+**Cinture da correggere (15 record esistenti — audit completo di tutte e 24 le tecniche contro il Gokyo ufficiale):**
 
 | id | tecnica | cintura oggi | cintura corretta |
 |---|---|---|---|
+| seoi-nage | Seoi Nage | arancione | gialla |
 | uki-goshi | Uki Goshi | arancione | gialla |
-| tsuri-komi-goshi | Tsurikomi Goshi | verde | arancione |
-| harai-goshi | Harai Goshi | verde | arancione |
+| sasae-tsurikomi-ashi | Sasae Tsurikomi Ashi | verde | gialla |
+| ippon-seoi-nage | Ippon Seoi Nage | verde | gialla |
 | kami-shiho-gatame | Kami Shiho Gatame | arancione | gialla |
 | tate-shiho-gatame | Tate Shiho Gatame | arancione | gialla |
+| tsuri-komi-goshi | Tsurikomi Goshi | verde | arancione |
+| harai-goshi | Harai Goshi | verde | arancione |
+| uchi-mata | Uchi Mata | blu | arancione |
 | kata-gatame | Kata Gatame | verde | arancione |
 | hane-goshi | Hane Goshi | blu | verde |
-| uchi-mata | Uchi Mata | blu | arancione |
 | tomoe-nage | Tomoe Nage | blu | verde |
 | juji-gatame | Ude Hishigi Juji Gatame | blu | verde |
 | ude-garami | Ude Garami | marrone | verde |
 | okuri-eri-jime | Okuri Eri Jime | verde | blu |
-| ippon-seoi-nage | Ippon Seoi Nage | verde | gialla |
 
 **Tecniche da aggiungere (37 nuovi record)**, stesso formato dei record esistenti (`nomeGiapponese`, `nomeItaliano`, `categoria`, `cintura`, `descrizione`, `passaggi`, `media` placeholder, `tags`):
 

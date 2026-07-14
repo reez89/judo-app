@@ -5,8 +5,11 @@ import {
   IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonBackButton,
   IonButton, IonIcon
 } from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { heart, heartOutline, checkmarkCircle, checkmarkCircleOutline } from 'ionicons/icons';
 import { ContentService } from '../../core/services/content.service';
 import { FavoritesService } from '../../core/services/favorites.service';
+import { BeltProgressService } from '../../core/services/belt-progress.service';
 import { MediaComponent } from '../../shared/media/media.component';
 import { CategoryChipComponent } from '../../shared/category-chip/category-chip.component';
 import { BeltBadgeComponent } from '../../shared/belt-badge/belt-badge.component';
@@ -23,6 +26,9 @@ import { BeltBadgeComponent } from '../../shared/belt-badge/belt-badge.component
       <ion-buttons slot="start"><ion-back-button defaultHref="/tabs/tecniche"></ion-back-button></ion-buttons>
       <ion-title>Tecnica</ion-title>
       <ion-buttons slot="end">
+        <ion-button (click)="toggleStudiata()">
+          <ion-icon [name]="isStudiata() ? 'checkmark-circle' : 'checkmark-circle-outline'" [style.color]="'var(--judo-green)'"></ion-icon>
+        </ion-button>
         <ion-button (click)="toggleFav()">
           <ion-icon [name]="isFav() ? 'heart' : 'heart-outline'" [style.color]="'var(--judo-red)'"></ion-icon>
         </ion-button>
@@ -54,13 +60,27 @@ export class TecnicaDetailPage {
   private route = inject(ActivatedRoute);
   private content = inject(ContentService);
   private favorites = inject(FavoritesService);
+  private progress = inject(BeltProgressService);
   private id = this.route.snapshot.paramMap.get('id') ?? '';
+
+  constructor() {
+    addIcons({
+      heart, 'heart-outline': heartOutline,
+      'checkmark-circle': checkmarkCircle, 'checkmark-circle-outline': checkmarkCircleOutline
+    });
+  }
 
   tecnica = toSignal(this.content.getTechnique(this.id), { initialValue: undefined });
   isFav = signal(this.favorites.isFavorite(this.id));
+  isStudiata = signal(this.progress.isStudied(this.id));
 
   toggleFav() {
     this.favorites.toggle(this.id);
     this.isFav.set(this.favorites.isFavorite(this.id));
+  }
+
+  toggleStudiata() {
+    this.progress.toggleStudied(this.id);
+    this.isStudiata.set(this.progress.isStudied(this.id));
   }
 }

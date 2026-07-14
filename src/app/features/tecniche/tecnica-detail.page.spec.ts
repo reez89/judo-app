@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { TecnicaDetailPage } from './tecnica-detail.page';
 import { ContentService } from '../../core/services/content.service';
 import { FavoritesService } from '../../core/services/favorites.service';
+import { StorageService } from '../../core/services/storage.service';
 import { Technique } from '../../core/models/technique.model';
 
 const tech: Technique = {
@@ -11,6 +12,12 @@ const tech: Technique = {
   categoria: 'nage-waza', cintura: 'gialla', descrizione: 'desc', passaggi: ['p1'],
   media: [{ tipo: 'placeholder', src: 'assets/media/placeholder.svg' }], tags: []
 };
+
+class FakeStorage {
+  store = new Map<string, string>();
+  async get(key: string) { return this.store.get(key) ?? null; }
+  async set(key: string, value: string) { this.store.set(key, value); }
+}
 
 describe('TecnicaDetailPage', () => {
   let page: TecnicaDetailPage;
@@ -20,6 +27,7 @@ describe('TecnicaDetailPage', () => {
       providers: [
         { provide: ContentService, useValue: { getTechnique: () => of(tech) } },
         { provide: FavoritesService, useValue: fav },
+        { provide: StorageService, useValue: new FakeStorage() },
         { provide: ActivatedRoute, useValue: { snapshot: { paramMap: { get: () => 'osoto-gari' } } } }
       ]
     });
@@ -32,5 +40,10 @@ describe('TecnicaDetailPage', () => {
   it('toggle preferito invoca il servizio', () => {
     page.toggleFav();
     expect(fav.toggle).toHaveBeenCalledWith('osoto-gari');
+  });
+  it('toggleStudiata inverte lo stato studiata della tecnica', () => {
+    expect(page.isStudiata()).toBeFalse();
+    page.toggleStudiata();
+    expect(page.isStudiata()).toBeTrue();
   });
 });

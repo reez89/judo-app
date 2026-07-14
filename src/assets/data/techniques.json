@@ -12,7 +12,7 @@
       "Falciata della gamba d'appoggio con il retro della coscia/gamba.",
       "Proiezione controllando il bavero."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/osoto-gari.png", "didascalia": "Osoto-gari" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -27,7 +27,7 @@
       "Rotazione e inserimento del bacino sotto il baricentro di uke.",
       "Sollevamento e proiezione ruotando le spalle."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/o-goshi.png", "didascalia": "O-goshi" }],
     "tags": ["proiezione", "anca"]
   },
   {
@@ -42,7 +42,7 @@
       "Rotazione entrando sotto il braccio di uke.",
       "Caricamento sulla schiena e proiezione."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/seoi-nage.png", "didascalia": "Seoi-nage" }],
     "tags": ["proiezione", "spalla"]
   },
   {
@@ -73,7 +73,7 @@
       "Spazzata del piede con la pianta del proprio piede, in direzione dell'altro piede di uke.",
       "Accompagnamento della caduta con le braccia."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/de-ashi-barai.png", "didascalia": "De-ashi-barai" }],
     "tags": ["proiezione", "gamba", "tempismo"]
   },
   {
@@ -89,7 +89,7 @@
       "Falciata verso l'interno della gamba d'appoggio.",
       "Spinta con il busto per completare la caduta."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/ouchi-gari.png", "didascalia": "Ouchi-gari" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -105,7 +105,7 @@
       "Falciata rapida verso l'alto della caviglia.",
       "Controllo delle maniche per la caduta."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/kouchi-gari.png", "didascalia": "Kouchi-gari" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -120,7 +120,7 @@
       "Rotazione con il fianco a contatto con l'addome di uke.",
       "Proiezione facendo ruotare uke sopra il fianco."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/uki-goshi.png", "didascalia": "Uki-goshi" }],
     "tags": ["proiezione", "anca"]
   },
   {
@@ -136,7 +136,7 @@
       "Posizionamento della gamba tesa davanti alla gamba di uke come ostacolo.",
       "Proiezione ruotando busto e braccia."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/tai-otoshi.png", "didascalia": "Tai-otoshi" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -168,7 +168,7 @@
       "Trazione delle braccia per far ruotare uke sopra il blocco.",
       "Accompagnamento della caduta."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/sasae-tsurikomi-ashi.png", "didascalia": "Sasae-tsurikomi-ashi" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -183,7 +183,7 @@
       "Rotazione con inserimento del bacino sotto uke.",
       "Sollevamento e proiezione ruotando le spalle."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/tsuri-komi-goshi.png", "didascalia": "Tsuri-komi-goshi" }],
     "tags": ["proiezione", "anca"]
   },
   {
@@ -199,7 +199,7 @@
       "Spazzata della gamba verso l'alto mentre si ruota il busto.",
       "Proiezione controllando bavero e manica."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/harai-goshi.png", "didascalia": "Harai-goshi" }],
     "tags": ["proiezione", "anca", "gamba"]
   },
   {
@@ -215,7 +215,7 @@
       "Estensione a molla della gamba per sollevare uke.",
       "Proiezione ruotando busto e braccia."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/hane-goshi.png", "didascalia": "Hane-goshi" }],
     "tags": ["proiezione", "anca"]
   },
   {
@@ -231,7 +231,7 @@
       "Sollevamento della gamba tesa tra le gambe di uke.",
       "Proiezione controllando bavero e manica."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/uchi-mata.png", "didascalia": "Uchi-mata" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -247,7 +247,7 @@
       "Estensione della gamba per lanciare uke sopra la testa.",
       "Rotazione finale mantenendo la presa alle maniche."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/tomoe-nage.png", "didascalia": "Tomoe-nage" }],
     "tags": ["proiezione", "sacrificio"]
   },
   {
@@ -387,7 +387,7 @@
       "Trazione delle braccia in cerchio attorno al punto bloccato.",
       "Proiezione accompagnando la rotazione di uke a terra."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/hiza-guruma.png", "didascalia": "Hiza-guruma" }],
     "tags": ["proiezione", "gamba", "tempismo"]
   },
   {
@@ -435,7 +435,7 @@
       "Spinta in avanti-basso del busto per completare la caduta.",
       "Controllo del bavero fino a terra."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/kosoto-gari.png", "didascalia": "Kosoto-gari" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -450,7 +450,7 @@
       "Rotazione e inserimento del bacino sotto il baricentro di uke.",
       "Sollevamento e proiezione ruotando busto e braccio di controllo."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/koshi-guruma.png", "didascalia": "Koshi-guruma" }],
     "tags": ["proiezione", "anca"]
   },
   {
@@ -466,7 +466,7 @@
       "Spazzata del piede nella direzione dello spostamento.",
       "Accompagnamento della caduta laterale con le braccia."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/okuri-ashi-barai.png", "didascalia": "Okuri-ashi-barai" }],
     "tags": ["proiezione", "gamba", "tempismo"]
   },
   {
@@ -512,7 +512,7 @@
       "Spinta del busto in avanti mentre si trattiene l'aggancio.",
       "Accompagnamento della caduta fino a terra."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/kosoto-gake.png", "didascalia": "Kosoto-gake" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -527,7 +527,7 @@
       "Rotazione con inserimento del bacino sotto il baricentro di uke.",
       "Sollevamento diretto e proiezione ruotando le spalle."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/tsuri-goshi.png", "didascalia": "Tsuri-goshi" }],
     "tags": ["proiezione", "anca"]
   },
   {
@@ -542,7 +542,7 @@
       "Caduta controllata di tori sul fianco, mantenendo la presa.",
       "Trazione delle braccia per completare la proiezione laterale di uke."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/yoko-otoshi.png", "didascalia": "Yoko-otoshi" }],
     "tags": ["proiezione", "sacrificio"]
   },
   {
@@ -557,7 +557,7 @@
       "Rotazione con inserimento della gamba tesa davanti alle gambe di uke come perno.",
       "Proiezione facendo ruotare uke sopra la gamba tesa."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/ashi-guruma.png", "didascalia": "Ashi-guruma" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -573,7 +573,7 @@
       "Sollevamento e rotazione tramite trazione delle braccia.",
       "Accompagnamento della caduta."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/harai-tsurikomi-ashi.png", "didascalia": "Harai-tsurikomi-ashi" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -588,7 +588,7 @@
       "Presa alla coscia di uke e sollevamento sulle spalle.",
       "Rotazione del busto per far scivolare uke a terra davanti a tori."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/kata-guruma.png", "didascalia": "Kata-guruma" }],
     "tags": ["proiezione", "sollevamento"]
   },
   {
@@ -648,7 +648,7 @@
       "Squilibrio all'indietro e caduta controllata sul dorso.",
       "Sollevamento con le gambe per far ruotare uke oltre la testa di tori."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/sumi-gaeshi.png", "didascalia": "Sumi-gaeshi" }],
     "tags": ["proiezione", "sacrificio"]
   },
   {
@@ -664,7 +664,7 @@
       "Caduta controllata di lato mentre si trattiene la presa.",
       "Proiezione di uke oltre l'ostacolo della gamba."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/tani-otoshi.png", "didascalia": "Tani-otoshi" }],
     "tags": ["proiezione", "sacrificio"]
   },
   {
@@ -679,7 +679,7 @@
       "Avvolgimento del braccio di uke con il proprio braccio.",
       "Caduta controllata in avanti trascinando uke nella rotazione."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/hane-makikomi.png", "didascalia": "Hane-makikomi" }],
     "tags": ["proiezione", "sacrificio", "makikomi"]
   },
   {
@@ -694,7 +694,7 @@
       "Presa a cucchiaio delle cosce o del bacino di uke.",
       "Sollevamento e rotazione del busto per proiettare uke."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/sukui-nage.png", "didascalia": "Sukui-nage" }],
     "tags": ["proiezione", "sollevamento"]
   },
   {
@@ -709,7 +709,7 @@
       "Sollevamento di uke sul proprio bacino contrastando la rotazione originale.",
       "Ribaltamento della rotazione e proiezione a favore di tori."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/utsuri-goshi.png", "didascalia": "Utsuri-goshi" }],
     "tags": ["proiezione", "anca", "contrattacco"]
   },
   {
@@ -724,7 +724,7 @@
       "Rotazione entrando con la gamba tesa alta davanti al corpo di uke.",
       "Proiezione facendo ruotare uke sopra la gamba tesa."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/o-guruma.png", "didascalia": "O-guruma" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -739,7 +739,7 @@
       "Avvolgimento del braccio di uke dall'esterno con il proprio braccio e fianco.",
       "Caduta controllata di lato trascinando uke nella rotazione."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/soto-makikomi.png", "didascalia": "Soto-makikomi" }],
     "tags": ["proiezione", "sacrificio", "makikomi"]
   },
   {
@@ -754,7 +754,7 @@
       "Abbassamento del baricentro senza contatto di gamba o anca.",
       "Accompagnamento della caduta di uke con le braccia fino a terra."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/uki-otoshi.png", "didascalia": "Uki-otoshi" }],
     "tags": ["proiezione", "squilibrio"]
   },
   {
@@ -830,7 +830,7 @@
       "Avanzamento bloccando entrambe le gambe di uke con la propria gamba tesa.",
       "Rotazione del busto per proiettare uke mantenendo le gambe bloccate insieme."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/osoto-guruma.png", "didascalia": "Osoto-guruma" }],
     "tags": ["proiezione", "gamba"]
   },
   {
@@ -845,7 +845,7 @@
       "Abbassamento laterale del corpo di tori senza toccare terra con il busto.",
       "Proiezione di uke tramite la torsione e la trazione delle braccia."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/uki-waza.png", "didascalia": "Uki-waza" }],
     "tags": ["proiezione", "sacrificio"]
   },
   {
@@ -860,7 +860,7 @@
       "Caduta controllata di lato con le gambe divaricate.",
       "Proiezione di uke lungo la direzione della caduta."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/yoko-wakare.png", "didascalia": "Yoko-wakare" }],
     "tags": ["proiezione", "sacrificio"]
   },
   {
@@ -875,7 +875,7 @@
       "Caduta controllata di lato passando una gamba sopra il corpo di uke.",
       "Rotazione che ribalta uke oltre il fianco di tori."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/yoko-guruma.png", "didascalia": "Yoko-guruma" }],
     "tags": ["proiezione", "sacrificio", "contrattacco"]
   },
   {
@@ -890,7 +890,7 @@
       "Presa alla cintura o ai fianchi di uke da dietro.",
       "Sollevamento di uke sul proprio bacino e proiezione all'indietro."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/ushiro-goshi.png", "didascalia": "Ushiro-goshi" }],
     "tags": ["proiezione", "anca", "contrattacco"]
   },
   {
@@ -905,7 +905,7 @@
       "Presa profonda in vita e sollevamento di uke da terra.",
       "Caduta controllata all'indietro proiettando uke oltre la testa di tori."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/ura-nage.png", "didascalia": "Ura-nage" }],
     "tags": ["proiezione", "sacrificio", "contrattacco"]
   },
   {
@@ -920,7 +920,7 @@
       "Trazione e spinta combinate senza contatto di gamba o anca.",
       "Accompagnamento della caduta di uke verso l'angolo squilibrato."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/sumi-otoshi.png", "didascalia": "Sumi-otoshi" }],
     "tags": ["proiezione", "squilibrio"]
   },
   {
@@ -935,7 +935,7 @@
       "Aggancio della gamba di uke con la propria gamba durante il movimento.",
       "Caduta controllata di lato trascinando uke nella proiezione."
     ],
-    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "media": [{ "tipo": "foto", "src": "assets/media/gokyo/yoko-gake.png", "didascalia": "Yoko-gake" }],
     "tags": ["proiezione", "sacrificio", "gamba"]
   }
 ]

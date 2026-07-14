@@ -36,7 +36,7 @@ import { BeltBadgeComponent } from '../../shared/belt-badge/belt-badge.component
     </ion-toolbar></ion-header>
     <ion-content class="ion-padding">
       @if (tecnica(); as t) {
-        <app-media [item]="t.media[0]"></app-media>
+        <app-media [items]="t.media"></app-media>
         <h1>{{ t.nomeGiapponese }}</h1>
         <p class="judo-muted">{{ t.nomeItaliano }}</p>
         <div class="badges">

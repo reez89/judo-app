@@ -125,4 +125,26 @@ describe('Integrità dati contenuti', () => {
       expect(g.sources.length).toBeGreaterThan(0);
     });
   });
+
+  it('le 40 tecniche del Gokyo hanno una foto dal grafico ufficiale, le altre 21 restano placeholder', () => {
+    const list = techniques as Technique[];
+    const gokyoIds = [
+      'de-ashi-barai', 'hiza-guruma', 'sasae-tsurikomi-ashi', 'o-goshi', 'osoto-gari', 'uki-goshi', 'ouchi-gari', 'seoi-nage',
+      'kosoto-gari', 'kouchi-gari', 'koshi-guruma', 'tsuri-komi-goshi', 'okuri-ashi-barai', 'tai-otoshi', 'harai-goshi', 'uchi-mata',
+      'kosoto-gake', 'tsuri-goshi', 'yoko-otoshi', 'ashi-guruma', 'hane-goshi', 'harai-tsurikomi-ashi', 'tomoe-nage', 'kata-guruma',
+      'sumi-gaeshi', 'tani-otoshi', 'hane-makikomi', 'sukui-nage', 'utsuri-goshi', 'o-guruma', 'soto-makikomi', 'uki-otoshi',
+      'osoto-guruma', 'uki-waza', 'yoko-wakare', 'yoko-guruma', 'ushiro-goshi', 'ura-nage', 'sumi-otoshi', 'yoko-gake'
+    ];
+    expect(gokyoIds.length).toBe(40);
+    gokyoIds.forEach(id => {
+      const t = list.find(x => x.id === id);
+      expect(t?.media[0]?.tipo).withContext(id).toBe('foto');
+      expect(t?.media[0]?.src).withContext(id).toBe(`assets/media/gokyo/${id}.png`);
+    });
+    const nonGokyoCount = list.filter(t => !gokyoIds.includes(t.id)).length;
+    expect(nonGokyoCount).toBe(21);
+    list.filter(t => !gokyoIds.includes(t.id)).forEach(t => {
+      expect(t.media[0]?.tipo).withContext(t.id).toBe('placeholder');
+    });
+  });
 });

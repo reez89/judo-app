@@ -817,5 +817,125 @@
     ],
     "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
     "tags": ["leva", "controllo"]
+  },
+  {
+    "id": "osoto-guruma",
+    "nomeGiapponese": "Osoto-guruma",
+    "nomeItaliano": "Grande ruota esterna",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Variante di osoto-gari in cui entrambe le gambe di uke vengono bloccate insieme, facendolo ruotare come un unico blocco.",
+    "passaggi": [
+      "Squilibrio di uke all'indietro, sul tallone, come in osoto-gari.",
+      "Avanzamento bloccando entrambe le gambe di uke con la propria gamba tesa.",
+      "Rotazione del busto per proiettare uke mantenendo le gambe bloccate insieme."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba"]
+  },
+  {
+    "id": "uki-waza",
+    "nomeGiapponese": "Uki-waza",
+    "nomeItaliano": "Tecnica fluttuante",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Tecnica di sacrificio laterale leggero: tori si abbassa di lato senza cadere completamente, squilibrando uke con un movimento fluttuante.",
+    "passaggi": [
+      "Squilibrio laterale-avanti di uke con trazione delle braccia.",
+      "Abbassamento laterale del corpo di tori senza toccare terra con il busto.",
+      "Proiezione di uke tramite la torsione e la trazione delle braccia."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio"]
+  },
+  {
+    "id": "yoko-wakare",
+    "nomeGiapponese": "Yoko-wakare",
+    "nomeItaliano": "Separazione laterale",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Tecnica di sacrificio laterale in cui tori cade di lato separando le gambe, proiettando uke lungo lo stesso asse di caduta.",
+    "passaggi": [
+      "Squilibrio laterale di uke con trazione decisa delle braccia.",
+      "Caduta controllata di lato con le gambe divaricate.",
+      "Proiezione di uke lungo la direzione della caduta."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio"]
+  },
+  {
+    "id": "yoko-guruma",
+    "nomeGiapponese": "Yoko-guruma",
+    "nomeItaliano": "Ruota laterale",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Tecnica di sacrificio applicata come contrattacco a una proiezione frontale, ribaltando uke lateralmente sopra il proprio corpo.",
+    "passaggi": [
+      "Intercettazione di uke durante un attacco frontale (ad esempio seoi-nage).",
+      "Caduta controllata di lato passando una gamba sopra il corpo di uke.",
+      "Rotazione che ribalta uke oltre il fianco di tori."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio", "contrattacco"]
+  },
+  {
+    "id": "ushiro-goshi",
+    "nomeGiapponese": "Ushiro-goshi",
+    "nomeItaliano": "Anca posteriore",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Contro-proiezione d'anca applicata da dietro: tori solleva uke che attacca da vicino e lo fa ricadere all'indietro sul proprio bacino.",
+    "passaggi": [
+      "Intercettazione di uke che si avvicina per una proiezione d'anca.",
+      "Presa alla cintura o ai fianchi di uke da dietro.",
+      "Sollevamento di uke sul proprio bacino e proiezione all'indietro."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "anca", "contrattacco"]
+  },
+  {
+    "id": "ura-nage",
+    "nomeGiapponese": "Ura-nage",
+    "nomeItaliano": "Proiezione rovesciata",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Tecnica di sacrificio posteriore: tori intercetta l'attacco di uke da vicino, lo solleva e cade all'indietro proiettandolo oltre la testa.",
+    "passaggi": [
+      "Intercettazione di uke durante un attacco ravvicinato d'anca o gamba.",
+      "Presa profonda in vita e sollevamento di uke da terra.",
+      "Caduta controllata all'indietro proiettando uke oltre la testa di tori."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio", "contrattacco"]
+  },
+  {
+    "id": "sumi-otoshi",
+    "nomeGiapponese": "Sumi-otoshi",
+    "nomeItaliano": "Caduta d'angolo",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Proiezione di squilibrio puro verso l'angolo posteriore di uke, senza appoggio di gamba o anca, simile a uki-otoshi ma all'indietro.",
+    "passaggi": [
+      "Squilibrio di uke verso l'angolo posteriore, oltre il tallone.",
+      "Trazione e spinta combinate senza contatto di gamba o anca.",
+      "Accompagnamento della caduta di uke verso l'angolo squilibrato."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "squilibrio"]
+  },
+  {
+    "id": "yoko-gake",
+    "nomeGiapponese": "Yoko-gake",
+    "nomeItaliano": "Aggancio laterale",
+    "categoria": "nage-waza",
+    "cintura": "marrone",
+    "descrizione": "Tecnica di sacrificio laterale: tori aggancia la gamba di uke durante uno spostamento laterale e cade di lato trascinandolo a terra.",
+    "passaggi": [
+      "Squilibrio laterale di uke durante uno spostamento.",
+      "Aggancio della gamba di uke con la propria gamba durante il movimento.",
+      "Caduta controllata di lato trascinando uke nella proiezione."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio", "gamba"]
   }
 ]

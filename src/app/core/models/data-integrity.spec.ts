@@ -89,4 +89,13 @@ describe('Integrità dati contenuti', () => {
     const count = (techniques as Technique[]).filter(t => t.cintura === 'blu').length;
     expect(count).toBe(14);
   });
+
+  it('la cintura marrone ha tutte le 8 tecniche del programma consigliato', () => {
+    const count = (techniques as Technique[]).filter(t => t.cintura === 'marrone').length;
+    expect(count).toBe(8);
+  });
+
+  it('il totale delle tecniche corrisponde a tutti i 40 lanci Gokyo + varianti + katame-waza', () => {
+    expect((techniques as Technique[]).length).toBe(61);
+  });
 });

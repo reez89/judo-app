@@ -498,5 +498,142 @@
     ],
     "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
     "tags": ["controllo", "immobilizzazione"]
+  },
+  {
+    "id": "kosoto-gake",
+    "nomeGiapponese": "Kosoto-gake",
+    "nomeItaliano": "Piccolo aggancio esterno",
+    "categoria": "nage-waza",
+    "cintura": "verde",
+    "descrizione": "Proiezione di gamba: si aggancia dall'esterno la gamba d'appoggio di uke restando a contatto più a lungo di kosoto-gari.",
+    "passaggi": [
+      "Squilibrio di uke all'indietro su una gamba.",
+      "Aggancio della gamba d'appoggio dall'esterno con la propria gamba, mantenendo il contatto.",
+      "Spinta del busto in avanti mentre si trattiene l'aggancio.",
+      "Accompagnamento della caduta fino a terra."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba"]
+  },
+  {
+    "id": "tsuri-goshi",
+    "nomeGiapponese": "Tsuri-goshi",
+    "nomeItaliano": "Anca con sollevamento",
+    "categoria": "nage-waza",
+    "cintura": "verde",
+    "descrizione": "Proiezione d'anca eseguita con presa alta senza la trazione tipica del tsurikomi, sollevando uke direttamente sopra il bacino.",
+    "passaggi": [
+      "Presa alta al bavero e alla cintura o al fianco di uke.",
+      "Rotazione con inserimento del bacino sotto il baricentro di uke.",
+      "Sollevamento diretto e proiezione ruotando le spalle."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "anca"]
+  },
+  {
+    "id": "yoko-otoshi",
+    "nomeGiapponese": "Yoko-otoshi",
+    "nomeItaliano": "Caduta laterale",
+    "categoria": "nage-waza",
+    "cintura": "verde",
+    "descrizione": "Tecnica di sacrificio laterale: tori si lascia cadere di lato portando con sé uke squilibrato lateralmente.",
+    "passaggi": [
+      "Squilibrio laterale di uke bloccando la gamba d'appoggio.",
+      "Caduta controllata di tori sul fianco, mantenendo la presa.",
+      "Trazione delle braccia per completare la proiezione laterale di uke."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sacrificio"]
+  },
+  {
+    "id": "ashi-guruma",
+    "nomeGiapponese": "Ashi-guruma",
+    "nomeItaliano": "Ruota di gamba",
+    "categoria": "nage-waza",
+    "cintura": "verde",
+    "descrizione": "Proiezione simile a o-goshi ma con la gamba tesa, anziché l'anca, a fare da perno per la rotazione di uke.",
+    "passaggi": [
+      "Squilibrio in avanti di uke.",
+      "Rotazione con inserimento della gamba tesa davanti alle gambe di uke come perno.",
+      "Proiezione facendo ruotare uke sopra la gamba tesa."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba"]
+  },
+  {
+    "id": "harai-tsurikomi-ashi",
+    "nomeGiapponese": "Harai-tsurikomi-ashi",
+    "nomeItaliano": "Spazzata al piede con sollevamento e trazione",
+    "categoria": "nage-waza",
+    "cintura": "verde",
+    "descrizione": "Proiezione di gamba: si spazza la gamba avanzante di uke mentre lo si solleva e tira in torsione, senza bloccare il piede come in sasae.",
+    "passaggi": [
+      "Squilibrio in avanti-laterale di uke con trazione delle braccia.",
+      "Spazzata della gamba avanzante di uke con la pianta del proprio piede.",
+      "Sollevamento e rotazione tramite trazione delle braccia.",
+      "Accompagnamento della caduta."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba"]
+  },
+  {
+    "id": "kata-guruma",
+    "nomeGiapponese": "Kata-guruma",
+    "nomeItaliano": "Ruota di spalla",
+    "categoria": "nage-waza",
+    "cintura": "verde",
+    "descrizione": "Proiezione in cui tori solleva uke sulle spalle, a cavalcioni, per poi farlo ruotare a terra davanti a sé.",
+    "passaggi": [
+      "Abbassamento del baricentro entrando tra le gambe di uke.",
+      "Presa alla coscia di uke e sollevamento sulle spalle.",
+      "Rotazione del busto per far scivolare uke a terra davanti a tori."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "sollevamento"]
+  },
+  {
+    "id": "nami-juji-jime",
+    "nomeGiapponese": "Nami-juji-jime",
+    "nomeItaliano": "Strangolamento a croce normale",
+    "categoria": "katame-waza",
+    "cintura": "verde",
+    "descrizione": "Strangolamento con le mani incrociate sui baveri di uke, palmi verso il basso, applicato frontalmente.",
+    "passaggi": [
+      "Posizionamento sopra o di fronte a uke controllandone il busto.",
+      "Presa incrociata dei baveri con i palmi rivolti verso il basso.",
+      "Trazione delle mani verso l'esterno per chiudere lo strangolamento."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["strangolamento", "controllo"]
+  },
+  {
+    "id": "gyaku-juji-jime",
+    "nomeGiapponese": "Gyaku-juji-jime",
+    "nomeItaliano": "Strangolamento a croce inversa",
+    "categoria": "katame-waza",
+    "cintura": "verde",
+    "descrizione": "Strangolamento con le mani incrociate sui baveri di uke, palmi verso l'alto, variante inversa del nami-juji-jime.",
+    "passaggi": [
+      "Posizionamento sopra o di fronte a uke controllandone il busto.",
+      "Presa incrociata dei baveri con i palmi rivolti verso l'alto.",
+      "Trazione delle mani verso l'esterno per chiudere lo strangolamento."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["strangolamento", "controllo"]
+  },
+  {
+    "id": "kata-juji-jime",
+    "nomeGiapponese": "Kata-juji-jime",
+    "nomeItaliano": "Strangolamento a croce singola",
+    "categoria": "katame-waza",
+    "cintura": "verde",
+    "descrizione": "Strangolamento a croce con una mano a palmo in giù e una a palmo in su, forma mista tra nami e gyaku juji jime.",
+    "passaggi": [
+      "Posizionamento sopra o di fronte a uke controllandone il busto.",
+      "Presa incrociata dei baveri con una mano a palmo in giù e una a palmo in su.",
+      "Trazione delle mani verso l'esterno per chiudere lo strangolamento."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["strangolamento", "controllo"]
   }
 ]

@@ -3,8 +3,10 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import {
   IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel,
-  IonButtons, IonButton, ActionSheetController
+  IonButtons, IonButton, IonIcon, ActionSheetController
 } from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { settingsOutline } from 'ionicons/icons';
 import { ContentService } from '../../core/services/content.service';
 import { BeltProgressService } from '../../core/services/belt-progress.service';
 import { BeltGrade } from '../../core/models/belt-grade.model';
@@ -14,13 +16,15 @@ import { BeltGrade } from '../../core/models/belt-grade.model';
   standalone: true,
   imports: [
     RouterLink, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel,
-    IonButtons, IonButton
+    IonButtons, IonButton, IonIcon
   ],
   template: `
     <ion-header><ion-toolbar>
       <ion-title>Cinture</ion-title>
       <ion-buttons slot="end">
-        <ion-button (click)="apriSelezioneCintura()">Imposta la mia cintura</ion-button>
+        <ion-button (click)="apriSelezioneCintura()" aria-label="Imposta la mia cintura attuale">
+          <ion-icon slot="icon-only" name="settings-outline"></ion-icon>
+        </ion-button>
       </ion-buttons>
     </ion-toolbar></ion-header>
     <ion-content>
@@ -44,6 +48,10 @@ export class BeltGradeListPage {
   private content = inject(ContentService);
   protected progress = inject(BeltProgressService);
   private actionSheetCtrl = inject(ActionSheetController);
+
+  constructor() {
+    addIcons({ 'settings-outline': settingsOutline });
+  }
 
   grades = toSignal(this.content.getBeltGrades(), { initialValue: [] as BeltGrade[] });
 

@@ -69,4 +69,9 @@ describe('Integrità dati contenuti', () => {
       expect(t?.cintura).withContext(id).toBe('blu');
     });
   });
+
+  it('la cintura gialla ha tutte le 15 tecniche del programma consigliato', () => {
+    const count = (techniques as Technique[]).filter(t => t.cintura === 'gialla').length;
+    expect(count).toBe(15);
+  });
 });

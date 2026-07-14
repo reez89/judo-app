@@ -373,5 +373,53 @@
     ],
     "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
     "tags": ["leva", "controllo"]
+  },
+  {
+    "id": "hiza-guruma",
+    "nomeGiapponese": "Hiza-guruma",
+    "nomeItaliano": "Ruota al ginocchio",
+    "categoria": "nage-waza",
+    "cintura": "gialla",
+    "descrizione": "Proiezione di tempismo: si blocca il ginocchio di uke con la pianta del piede mentre lo si fa ruotare attorno a quel punto fisso.",
+    "passaggi": [
+      "Squilibrio laterale-avanti di uke.",
+      "Blocco del ginocchio d'appoggio di uke con la pianta del proprio piede.",
+      "Trazione delle braccia in cerchio attorno al punto bloccato.",
+      "Proiezione accompagnando la rotazione di uke a terra."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "gamba", "tempismo"]
+  },
+  {
+    "id": "morote-seoi-nage",
+    "nomeGiapponese": "Morote-seoi-nage",
+    "nomeItaliano": "Proiezione di spalla a due mani",
+    "categoria": "nage-waza",
+    "cintura": "gialla",
+    "descrizione": "Variante di seoi-nage con presa a due mani su manica e bavero di uke, caricato sulla schiena con entrambe le braccia.",
+    "passaggi": [
+      "Squilibrio in avanti di uke con trazione a due mani.",
+      "Rotazione entrando sotto il baricentro di uke, schiena a contatto col petto.",
+      "Abbassamento del baricentro e caricamento con entrambe le braccia.",
+      "Proiezione estendendo le gambe e tirando in avanti-basso."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "spalla"]
+  },
+  {
+    "id": "eri-seoi-nage",
+    "nomeGiapponese": "Eri-seoi-nage",
+    "nomeItaliano": "Proiezione di spalla al bavero",
+    "categoria": "nage-waza",
+    "cintura": "gialla",
+    "descrizione": "Variante di seoi-nage con presa al bavero anziché alla manica, utile contro chi controlla le maniche.",
+    "passaggi": [
+      "Presa al bavero opposto e squilibrio in avanti di uke.",
+      "Rotazione entrando sotto il braccio di uke, mantenendo la presa al bavero.",
+      "Caricamento sulla schiena con il braccio libero a controllo del bavero vicino.",
+      "Proiezione estendendo le gambe."
+    ],
+    "media": [{ "tipo": "placeholder", "src": "assets/media/placeholder.svg", "didascalia": "Video in arrivo" }],
+    "tags": ["proiezione", "spalla"]
   }
 ]

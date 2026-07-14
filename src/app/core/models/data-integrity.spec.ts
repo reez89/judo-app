@@ -31,4 +31,42 @@ describe('Integrità dati contenuti', () => {
       expect(k.serie.length).toBeGreaterThan(0);
     });
   });
+
+  it('le tecniche del 1° gruppo Gokyo e le loro varianti sono in cintura gialla', () => {
+    const list = techniques as Technique[];
+    const gialla = ['osoto-gari', 'o-goshi', 'seoi-nage', 'de-ashi-barai', 'ouchi-gari',
+      'uki-goshi', 'sasae-tsurikomi-ashi', 'ippon-seoi-nage',
+      'kesa-gatame', 'yoko-shiho-gatame', 'kami-shiho-gatame', 'tate-shiho-gatame'];
+    gialla.forEach(id => {
+      const t = list.find(x => x.id === id);
+      expect(t?.cintura).withContext(id).toBe('gialla');
+    });
+  });
+
+  it('le tecniche del 2° gruppo Gokyo sono in cintura arancione', () => {
+    const list = techniques as Technique[];
+    const arancione = ['kouchi-gari', 'tai-otoshi', 'tsuri-komi-goshi', 'harai-goshi', 'uchi-mata', 'kata-gatame'];
+    arancione.forEach(id => {
+      const t = list.find(x => x.id === id);
+      expect(t?.cintura).withContext(id).toBe('arancione');
+    });
+  });
+
+  it('le tecniche del 3° gruppo Gokyo sono in cintura verde', () => {
+    const list = techniques as Technique[];
+    const verde = ['hane-goshi', 'tomoe-nage', 'juji-gatame', 'ude-garami'];
+    verde.forEach(id => {
+      const t = list.find(x => x.id === id);
+      expect(t?.cintura).withContext(id).toBe('verde');
+    });
+  });
+
+  it('le tecniche del 4° gruppo Gokyo sono in cintura blu', () => {
+    const list = techniques as Technique[];
+    const blu = ['hadaka-jime', 'okuri-eri-jime'];
+    blu.forEach(id => {
+      const t = list.find(x => x.id === id);
+      expect(t?.cintura).withContext(id).toBe('blu');
+    });
+  });
 });

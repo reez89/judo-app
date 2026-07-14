@@ -35,7 +35,7 @@
     "nomeGiapponese": "Seoi-nage",
     "nomeItaliano": "Proiezione di spalla",
     "categoria": "nage-waza",
-    "cintura": "arancione",
+    "cintura": "gialla",
     "descrizione": "Proiezione di spalla: si carica uke sulla schiena e lo si proietta in avanti.",
     "passaggi": [
       "Squilibrio in avanti di uke.",
@@ -113,7 +113,7 @@
     "nomeGiapponese": "Uki-goshi",
     "nomeItaliano": "Anca fluttuante",
     "categoria": "nage-waza",
-    "cintura": "arancione",
+    "cintura": "gialla",
     "descrizione": "Proiezione d'anca in cui il bacino resta più laterale rispetto a o-goshi, con rotazione ampia sul fianco.",
     "passaggi": [
       "Squilibrio in avanti-laterale di uke.",
@@ -144,7 +144,7 @@
     "nomeGiapponese": "Ippon-seoi-nage",
     "nomeItaliano": "Proiezione di spalla a un braccio",
     "categoria": "nage-waza",
-    "cintura": "verde",
+    "cintura": "gialla",
     "descrizione": "Variante di seoi-nage in cui si controlla un solo braccio di uke, caricandolo sulla spalla con rotazione stretta.",
     "passaggi": [
       "Squilibrio in avanti di uke.",
@@ -160,7 +160,7 @@
     "nomeGiapponese": "Sasae-tsurikomi-ashi",
     "nomeItaliano": "Blocco al piede con sollevamento e trazione",
     "categoria": "nage-waza",
-    "cintura": "verde",
+    "cintura": "gialla",
     "descrizione": "Proiezione di gamba: si blocca la caviglia o il piede di uke mentre lo si solleva e ruota in avanti.",
     "passaggi": [
       "Squilibrio in avanti-laterale di uke sollevandolo sulle punte.",
@@ -176,7 +176,7 @@
     "nomeGiapponese": "Tsuri-komi-goshi",
     "nomeItaliano": "Anca con sollevamento e trazione",
     "categoria": "nage-waza",
-    "cintura": "verde",
+    "cintura": "arancione",
     "descrizione": "Proiezione d'anca in cui uke viene sollevato e tirato in rotazione sopra il bacino di tori.",
     "passaggi": [
       "Presa alta al bavero e trazione verso l'alto.",
@@ -191,7 +191,7 @@
     "nomeGiapponese": "Harai-goshi",
     "nomeItaliano": "Spazzata d'anca",
     "categoria": "nage-waza",
-    "cintura": "verde",
+    "cintura": "arancione",
     "descrizione": "Proiezione d'anca combinata con una spazzata della gamba sulla coscia di uke per completare la rotazione.",
     "passaggi": [
       "Squilibrio in avanti di uke.",
@@ -207,7 +207,7 @@
     "nomeGiapponese": "Hane-goshi",
     "nomeItaliano": "Anca a molla",
     "categoria": "nage-waza",
-    "cintura": "blu",
+    "cintura": "verde",
     "descrizione": "Proiezione d'anca simile a harai-goshi ma con la gamba flessa che agisce come una molla per lanciare uke in alto.",
     "passaggi": [
       "Squilibrio in avanti di uke.",
@@ -223,7 +223,7 @@
     "nomeGiapponese": "Uchi-mata",
     "nomeItaliano": "Falciata interna coscia",
     "categoria": "nage-waza",
-    "cintura": "blu",
+    "cintura": "arancione",
     "descrizione": "Proiezione di gamba in cui la coscia interna solleva e falcia la gamba di uke, proiettandolo in rotazione.",
     "passaggi": [
       "Squilibrio in avanti di uke.",
@@ -239,7 +239,7 @@
     "nomeGiapponese": "Tomoe-nage",
     "nomeItaliano": "Proiezione circolare",
     "categoria": "nage-waza",
-    "cintura": "blu",
+    "cintura": "verde",
     "descrizione": "Tecnica di sacrificio: tori si lascia cadere sul dorso appoggiando un piede sull'addome di uke per proiettarlo oltre la testa.",
     "passaggi": [
       "Trazione di uke in avanti per squilibrarlo.",
@@ -270,7 +270,7 @@
     "nomeGiapponese": "Kami-shiho-gatame",
     "nomeItaliano": "Controllo a quattro punti dalla testa",
     "categoria": "katame-waza",
-    "cintura": "arancione",
+    "cintura": "gialla",
     "descrizione": "Immobilizzazione dalla parte della testa di uke, con controllo della cintura e delle braccia.",
     "passaggi": [
       "Posizionamento in ginocchio dietro la testa di uke supino.",
@@ -285,7 +285,7 @@
     "nomeGiapponese": "Tate-shiho-gatame",
     "nomeItaliano": "Controllo a cavalcioni",
     "categoria": "katame-waza",
-    "cintura": "arancione",
+    "cintura": "gialla",
     "descrizione": "Immobilizzazione a cavalcioni sul busto di uke, con le gambe strette ai fianchi per impedire la rotazione.",
     "passaggi": [
       "Posizione a cavalcioni sul busto di uke supino.",
@@ -300,7 +300,7 @@
     "nomeGiapponese": "Kata-gatame",
     "nomeItaliano": "Controllo di spalla",
     "categoria": "katame-waza",
-    "cintura": "verde",
+    "cintura": "arancione",
     "descrizione": "Immobilizzazione che blocca il braccio di uke contro la propria guancia e spalla, limitando i movimenti del busto.",
     "passaggi": [
       "Presa del braccio di uke portato verso la testa.",
@@ -315,7 +315,7 @@
     "nomeGiapponese": "Okuri-eri-jime",
     "nomeItaliano": "Strangolamento scorrevole al bavero",
     "categoria": "katame-waza",
-    "cintura": "verde",
+    "cintura": "blu",
     "descrizione": "Strangolamento da dietro con entrambe le mani sui baveri di uke, incrociando le braccia intorno al collo.",
     "passaggi": [
       "Posizionamento dietro la schiena di uke, controllando il busto con le gambe.",
@@ -347,7 +347,7 @@
     "nomeGiapponese": "Juji-gatame",
     "nomeItaliano": "Leva al braccio a croce",
     "categoria": "katame-waza",
-    "cintura": "blu",
+    "cintura": "verde",
     "descrizione": "Leva articolare al gomito eseguita a croce rispetto al corpo di uke, estendendo il braccio contro l'articolazione.",
     "passaggi": [
       "Controllo del braccio di uke con entrambe le mani.",
@@ -363,7 +363,7 @@
     "nomeGiapponese": "Ude-garami",
     "nomeItaliano": "Leva al braccio avvolta",
     "categoria": "katame-waza",
-    "cintura": "marrone",
+    "cintura": "verde",
     "descrizione": "Leva articolare alla spalla e al gomito ottenuta intrecciando il braccio di uke a forma di quattro.",
     "passaggi": [
       "Controllo del polso di uke con una mano.",

@@ -56,8 +56,15 @@ interface ResolvedSection {
                 @for (t of s.techniques; track t.id) {
                   <ion-item [routerLink]="['/tabs/tecniche', t.id]" detail>
                     <ion-label>{{ t.nomeGiapponese }}</ion-label>
-                    <ion-icon slot="end" [name]="progress.isStudied(t.id) ? 'checkmark-circle' : 'checkmark-circle-outline'"
-                      (click)="toggleStudiata($event, t.id)"></ion-icon>
+                    <button
+                      type="button"
+                      class="studiata-toggle"
+                      slot="end"
+                      [attr.aria-label]="(progress.isStudied(t.id) ? 'Segna ' + t.nomeGiapponese + ' come non studiata' : 'Segna ' + t.nomeGiapponese + ' come studiata')"
+                      [attr.aria-pressed]="progress.isStudied(t.id) ? 'true' : 'false'"
+                      (click)="toggleStudiata($event, t.id)">
+                      <ion-icon aria-hidden="true" [name]="progress.isStudied(t.id) ? 'checkmark-circle' : 'checkmark-circle-outline'"></ion-icon>
+                    </button>
                   </ion-item>
                 }
               </ion-list>
@@ -82,6 +89,13 @@ interface ResolvedSection {
     .disclaimer{ color: var(--judo-muted); font-style: italic; }
     .sicurezza{ color: var(--judo-red); font-weight: 600; }
     ul{ line-height:1.6; }
+    .studiata-toggle{
+      background:none; border:none; appearance:none; -webkit-appearance:none;
+      display:flex; align-items:center; justify-content:center;
+      min-width:2.75rem; min-height:2.75rem; padding:0; margin:0;
+      color: var(--judo-green); font-size:1.5rem;
+    }
+    .studiata-toggle:focus-visible{ outline:2px solid var(--judo-purple); outline-offset:2px; }
   `]
 })
 export class BeltGradeDetailPage {

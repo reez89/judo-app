@@ -140,4 +140,18 @@ describe('BeltGradeDetailPage', () => {
     expect(clickEvent.defaultPrevented).toBeTrue();
     expect(progress.isStudied('tomoe-nage')).toBeTrue();
   });
+
+  it('il bottone toggle studiata espone aria-label e aria-pressed per la tecnica', () => {
+    fixture.detectChanges();
+    httpMock.expectOne('assets/data/belt-grades.json').flush([GRADE]);
+    httpMock.expectOne('assets/data/techniques.json').flush(TECHNIQUES);
+    fixture.detectChanges();
+    fixture.componentInstance.setTab('tecniche');
+    fixture.detectChanges();
+
+    const button = (fixture.nativeElement as HTMLElement).querySelector('ion-item button.studiata-toggle') as HTMLElement;
+    expect(button).withContext('bottone toggle studiata non trovato').toBeTruthy();
+    expect(button.getAttribute('aria-pressed')).toBe('false');
+    expect(button.getAttribute('aria-label')).toBe('Segna Tomoe-nage come studiata');
+  });
 });

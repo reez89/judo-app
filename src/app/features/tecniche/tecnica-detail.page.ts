@@ -26,17 +26,23 @@ import { BeltBadgeComponent } from '../../shared/belt-badge/belt-badge.component
       <ion-buttons slot="start"><ion-back-button defaultHref="/tabs/tecniche"></ion-back-button></ion-buttons>
       <ion-title>Tecnica</ion-title>
       <ion-buttons slot="end">
-        <ion-button (click)="toggleStudiata()">
-          <ion-icon [name]="isStudiata() ? 'checkmark-circle' : 'checkmark-circle-outline'" [style.color]="'var(--judo-green)'"></ion-icon>
+        <ion-button
+          [attr.aria-label]="isStudiata() ? 'Segna come non studiata' : 'Segna come studiata'"
+          [attr.aria-pressed]="isStudiata() ? 'true' : 'false'"
+          (click)="toggleStudiata()">
+          <ion-icon aria-hidden="true" [name]="isStudiata() ? 'checkmark-circle' : 'checkmark-circle-outline'" [style.color]="'var(--judo-green)'"></ion-icon>
         </ion-button>
-        <ion-button (click)="toggleFav()">
-          <ion-icon [name]="isFav() ? 'heart' : 'heart-outline'" [style.color]="'var(--judo-red)'"></ion-icon>
+        <ion-button
+          [attr.aria-label]="isFav() ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti'"
+          [attr.aria-pressed]="isFav() ? 'true' : 'false'"
+          (click)="toggleFav()">
+          <ion-icon aria-hidden="true" [name]="isFav() ? 'heart' : 'heart-outline'" [style.color]="'var(--judo-red)'"></ion-icon>
         </ion-button>
       </ion-buttons>
     </ion-toolbar></ion-header>
     <ion-content class="ion-padding">
       @if (tecnica(); as t) {
-        <app-media [items]="t.media"></app-media>
+        <app-media [items]="t.media" [altFallback]="t.nomeGiapponese"></app-media>
         <h1>{{ t.nomeGiapponese }}</h1>
         <p class="judo-muted">{{ t.nomeItaliano }}</p>
         <div class="badges">

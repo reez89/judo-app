@@ -16,6 +16,6 @@ export class CategoryChipComponent {
     return this.categoria === 'nage-waza' ? 'var(--judo-green)' : 'var(--judo-red)';
   }
   get bg(): string {
-    return this.categoria === 'nage-waza' ? 'rgba(75,216,138,.14)' : 'rgba(255,107,100,.14)';
+    return this.categoria === 'nage-waza' ? 'var(--judo-green-tint)' : 'var(--judo-red-tint)';
   }
 }

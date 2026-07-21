@@ -6,7 +6,7 @@ import { Cintura } from '../../core/models/technique.model';
   standalone: true,
   template: `<span class="badge">Cintura {{ cintura }}</span>`,
   styles: [`.badge{ font-size:.6875rem; font-weight:700; padding:4px 9px; border-radius:999px;
-    color: var(--judo-purple); background: rgba(138,92,214,.2); text-transform: capitalize; }`]
+    color: var(--judo-purple); background: var(--judo-purple-tint); text-transform: capitalize; }`]
 })
 export class BeltBadgeComponent {
   @Input() cintura!: Cintura;

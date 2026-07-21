@@ -14,12 +14,12 @@ import { MediaItem } from '../../core/models/media.model';
         @if (showingVideo(); as v) {
           <video [src]="v.src" controls playsinline autoplay></video>
         } @else if (primary; as p) {
-          <img [src]="p.src" [alt]="p.didascalia || 'media'" />
+          <img [src]="p.src" [alt]="p.didascalia || altFallback" />
         }
       </div>
       @if (!showingVideo() && primary) {
         <button class="play-btn" type="button" (click)="onPlayClick()">
-          <ion-icon name="play-circle"></ion-icon>
+          <ion-icon aria-hidden="true" name="play-circle"></ion-icon>
           <span>Video</span>
         </button>
       }
@@ -38,6 +38,7 @@ import { MediaItem } from '../../core/models/media.model';
 export class MediaComponent {
   private toastCtrl = inject(ToastController);
   @Input() items: MediaItem[] = [];
+  @Input() altFallback = '';
 
   showingVideo = signal<MediaItem | null>(null);
 

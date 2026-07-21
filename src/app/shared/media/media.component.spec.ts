@@ -42,4 +42,29 @@ describe('MediaComponent', () => {
     await fixture.componentInstance.onPlayClick();
     expect(fixture.componentInstance.showingVideo()).toBeNull();
   });
+
+  it('usa altFallback come alt quando manca la didascalia', () => {
+    fixture.componentInstance.items = [{ tipo: 'placeholder', src: 'assets/media/placeholder.svg' }];
+    fixture.componentInstance.altFallback = 'Osoto-gari';
+    fixture.detectChanges();
+    const img = fixture.nativeElement.querySelector('img') as HTMLImageElement;
+    expect(img.alt).toBe('Osoto-gari');
+  });
+
+  it('usa la didascalia quando presente, ignorando altFallback', () => {
+    fixture.componentInstance.items = [
+      { tipo: 'placeholder', src: 'assets/media/placeholder.svg', didascalia: 'Presa iniziale' }
+    ];
+    fixture.componentInstance.altFallback = 'Osoto-gari';
+    fixture.detectChanges();
+    const img = fixture.nativeElement.querySelector('img') as HTMLImageElement;
+    expect(img.alt).toBe('Presa iniziale');
+  });
+
+  it('l\'icona play è decorativa e non annunciata dallo screen reader', () => {
+    fixture.componentInstance.items = [{ tipo: 'placeholder', src: 'assets/media/placeholder.svg' }];
+    fixture.detectChanges();
+    const icon = fixture.nativeElement.querySelector('.play-btn ion-icon') as HTMLElement;
+    expect(icon.getAttribute('aria-hidden')).toBe('true');
+  });
 });

@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { FavoritesService } from './core/services/favorites.service';
 import { BeltProgressService } from './core/services/belt-progress.service';
 import { StorageService } from './core/services/storage.service';
+import { ThemeService } from './core/services/theme.service';
 
 class FakeStorage {
   store = new Map<string, string>();
@@ -38,5 +39,19 @@ describe('AppComponent', () => {
 
     expect(favoritesLoadSpy).toHaveBeenCalled();
     expect(progressLoadSpy).toHaveBeenCalled();
+  });
+
+  it('inizializza il tema (status bar) all\'avvio', async () => {
+    await TestBed.configureTestingModule({
+      imports: [AppComponent],
+      providers: [provideRouter([]), { provide: StorageService, useClass: FakeStorage }]
+    }).compileComponents();
+
+    const theme = TestBed.inject(ThemeService);
+    const themeInitSpy = spyOn(theme, 'init');
+
+    TestBed.createComponent(AppComponent);
+
+    expect(themeInitSpy).toHaveBeenCalled();
   });
 });

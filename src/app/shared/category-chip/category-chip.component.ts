@@ -5,7 +5,7 @@ import { Categoria } from '../../core/models/technique.model';
   selector: 'app-category-chip',
   standalone: true,
   template: `<span class="chip" [style.color]="color" [style.background]="bg">{{ label }}</span>`,
-  styles: [`.chip{ font-size:11px; font-weight:700; padding:4px 9px; border-radius:999px; }`]
+  styles: [`.chip{ font-size:.6875rem; font-weight:700; padding:4px 9px; border-radius:999px; }`]
 })
 export class CategoryChipComponent {
   @Input() categoria!: Categoria;

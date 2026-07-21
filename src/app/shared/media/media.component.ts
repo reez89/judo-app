@@ -31,8 +31,8 @@ import { MediaItem } from '../../core/models/media.model';
     img, video{ width:100%; display:block; }
     .play-btn{ align-self:flex-start; margin-top:8px; display:flex; align-items:center; gap:6px;
       background: var(--judo-surface); border:1px solid var(--judo-border); border-radius:999px;
-      padding:6px 12px; color: var(--judo-purple); font-size:13px; font-weight:700; }
-    .play-btn ion-icon{ font-size:18px; }
+      padding:6px 12px; color: var(--judo-purple); font-size:.8125rem; font-weight:700; }
+    .play-btn ion-icon{ font-size:1.125rem; }
   `]
 })
 export class MediaComponent {

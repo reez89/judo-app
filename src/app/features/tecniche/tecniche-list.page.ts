@@ -48,7 +48,7 @@ import { CategoryChipComponent } from '../../shared/category-chip/category-chip.
   `,
   styles: [`
     .filters{ display:flex; gap:8px; padding:8px 16px; flex-wrap:wrap; }
-    .chip{ font-size:12px; font-weight:700; padding:6px 12px; border-radius:999px; text-transform:capitalize;
+    .chip{ font-size:.75rem; font-weight:700; padding:6px 12px; border-radius:999px; text-transform:capitalize;
       background: var(--judo-surface); color: var(--judo-muted); border:1px solid var(--judo-border);
       appearance:none; -webkit-appearance:none; font-family:inherit; cursor:pointer; }
     .chip.on{ background: var(--judo-purple-base); color:#fff; border-color: var(--judo-purple-base); }

@@ -12,7 +12,7 @@ import { ContentService } from '../../core/services/content.service';
   standalone: true,
   imports: [RouterLink, IonHeader, IonToolbar, IonTitle, IonContent, IonSearchbar, IonList, IonItem, IonLabel],
   template: `
-    <ion-header><ion-toolbar><ion-title><span class="judo-kanji">形</span> Kata</ion-title></ion-toolbar></ion-header>
+    <ion-header><ion-toolbar><ion-title><span class="judo-kanji" aria-hidden="true">形</span> Kata</ion-title></ion-toolbar></ion-header>
     <ion-content>
       <ion-searchbar placeholder="Cerca kata…" (ionInput)="setQuery($any($event).target.value)"></ion-searchbar>
       <ion-list>

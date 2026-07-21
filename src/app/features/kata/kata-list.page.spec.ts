@@ -1,4 +1,5 @@
-import { TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
 import { of } from 'rxjs';
 import { KataListPage } from './kata-list.page';
 import { ContentService } from '../../core/services/content.service';
@@ -12,7 +13,10 @@ describe('KataListPage', () => {
   let page: KataListPage;
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [{ provide: ContentService, useValue: { getKata: () => of([k('nage-no-kata', 'Nage-no-kata'), k('katame-no-kata', 'Katame-no-kata')]) } }]
+      providers: [
+        provideRouter([]),
+        { provide: ContentService, useValue: { getKata: () => of([k('nage-no-kata', 'Nage-no-kata'), k('katame-no-kata', 'Katame-no-kata')]) } }
+      ]
     });
     page = TestBed.runInInjectionContext(() => new KataListPage());
   });
@@ -23,5 +27,12 @@ describe('KataListPage', () => {
   it('cerca per nome', () => {
     page.setQuery('katame');
     expect(page.risultati().map(x => x.id)).toEqual(['katame-no-kata']);
+  });
+
+  it('il kanji nel titolo è nascosto allo screen reader', () => {
+    const fixture: ComponentFixture<KataListPage> = TestBed.createComponent(KataListPage);
+    fixture.detectChanges();
+    const kanji = fixture.nativeElement.querySelector('.judo-kanji') as HTMLElement;
+    expect(kanji.getAttribute('aria-hidden')).toBe('true');
   });
 });

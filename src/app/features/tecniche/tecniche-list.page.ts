@@ -18,18 +18,18 @@ import { CategoryChipComponent } from '../../shared/category-chip/category-chip.
     IonList, IonItem, IonLabel, CategoryChipComponent
   ],
   template: `
-    <ion-header><ion-toolbar><ion-title><span class="judo-kanji">柔道</span> Tecniche</ion-title></ion-toolbar></ion-header>
+    <ion-header><ion-toolbar><ion-title><span class="judo-kanji" aria-hidden="true">柔道</span> Tecniche</ion-title></ion-toolbar></ion-header>
     <ion-content>
       <ion-searchbar placeholder="Cerca tecnica…" (ionInput)="setQuery($any($event).target.value)"></ion-searchbar>
-      <div class="filters">
-        <span class="chip" [class.on]="!categoria()" (click)="setCategoria(null)">Tutte</span>
-        <span class="chip" [class.on]="categoria()==='nage-waza'" (click)="setCategoria('nage-waza')">Nage-waza</span>
-        <span class="chip" [class.on]="categoria()==='katame-waza'" (click)="setCategoria('katame-waza')">Katame-waza</span>
+      <div class="filters" role="group" aria-label="Filtra per categoria">
+        <button type="button" class="chip" [class.on]="!categoria()" [attr.aria-pressed]="!categoria() ? 'true' : 'false'" (click)="setCategoria(null)">Tutte</button>
+        <button type="button" class="chip" [class.on]="categoria()==='nage-waza'" [attr.aria-pressed]="categoria()==='nage-waza' ? 'true' : 'false'" (click)="setCategoria('nage-waza')">Nage-waza</button>
+        <button type="button" class="chip" [class.on]="categoria()==='katame-waza'" [attr.aria-pressed]="categoria()==='katame-waza' ? 'true' : 'false'" (click)="setCategoria('katame-waza')">Katame-waza</button>
       </div>
-      <div class="filters">
-        <span class="chip" [class.on]="!cintura()" (click)="setCintura(null)">Ogni cintura</span>
+      <div class="filters" role="group" aria-label="Filtra per cintura">
+        <button type="button" class="chip" [class.on]="!cintura()" [attr.aria-pressed]="!cintura() ? 'true' : 'false'" (click)="setCintura(null)">Ogni cintura</button>
         @for (c of cinture; track c) {
-          <span class="chip" [class.on]="cintura()===c" (click)="setCintura(c)">{{ c }}</span>
+          <button type="button" class="chip" [class.on]="cintura()===c" [attr.aria-pressed]="cintura()===c ? 'true' : 'false'" (click)="setCintura(c)">{{ c }}</button>
         }
       </div>
       <ion-list>
@@ -49,8 +49,10 @@ import { CategoryChipComponent } from '../../shared/category-chip/category-chip.
   styles: [`
     .filters{ display:flex; gap:8px; padding:8px 16px; flex-wrap:wrap; }
     .chip{ font-size:12px; font-weight:700; padding:6px 12px; border-radius:999px; text-transform:capitalize;
-      background: var(--judo-surface); color: var(--judo-muted); border:1px solid var(--judo-border); }
+      background: var(--judo-surface); color: var(--judo-muted); border:1px solid var(--judo-border);
+      appearance:none; -webkit-appearance:none; font-family:inherit; cursor:pointer; }
     .chip.on{ background: var(--judo-purple-base); color:#fff; border-color: var(--judo-purple-base); }
+    .chip:focus-visible{ outline:2px solid var(--judo-purple); outline-offset:2px; }
   `]
 })
 export class TecnicheListPage {

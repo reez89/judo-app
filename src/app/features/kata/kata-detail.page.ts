@@ -18,7 +18,7 @@ import { MediaComponent } from '../../shared/media/media.component';
     </ion-toolbar></ion-header>
     <ion-content class="ion-padding">
       @if (kata(); as k) {
-        <app-media [items]="k.media"></app-media>
+        <app-media [items]="k.media" [altFallback]="k.nomeGiapponese"></app-media>
         <h1>{{ k.nomeGiapponese }}</h1>
         <p class="judo-muted">{{ k.nomeItaliano }}</p>
         <p>{{ k.descrizione }}</p>

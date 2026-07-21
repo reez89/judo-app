@@ -2,29 +2,67 @@
 // https://ionicframework.com/docs/theming/
 
 :root {
-  --ion-background-color: #141319;
-  --ion-background-color-rgb: 20, 19, 25;
-  --ion-text-color: #f0eef6;
-  --ion-text-color-rgb: 240, 238, 246;
+  --ion-background-color: #faf9fc;
+  --ion-background-color-rgb: 250, 249, 252;
+  --ion-text-color: #201f29;
+  --ion-text-color-rgb: 32, 31, 41;
 
-  --ion-toolbar-background: #141319;
-  --ion-tab-bar-background: #1b1a20;
-  --ion-item-background: #20202a;
-  --ion-card-background: #20202a;
+  --ion-toolbar-background: #ffffff;
+  --ion-tab-bar-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
 
-  --ion-color-primary: #8a5cd6;
-  --ion-color-primary-rgb: 138, 92, 214;
+  --ion-color-primary: #6a3fb8;
+  --ion-color-primary-rgb: 106, 63, 184;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #794fbc;
-  --ion-color-primary-tint: #966bda;
+  --ion-color-primary-shade: #5d379f;
+  --ion-color-primary-tint: #7952c2;
 
   /* Token app */
-  --judo-purple: #b98bff;
-  --judo-purple-base: #8a5cd6;
-  --judo-green: #4bd88a;
-  --judo-red: #ff6b64;
-  --judo-surface: #20202a;
-  --judo-border: #2c2b38;
-  --judo-muted: #8886a0;
+  --judo-purple: #6a3fb8;
+  --judo-purple-base: #6a3fb8;
+  --judo-green: #1f8f52;
+  --judo-red: #d93a35;
+  --judo-surface: #f1eef8;
+  --judo-border: #e4e1ec;
+  --judo-muted: #6b6980;
+
+  --judo-green-tint: rgba(31, 143, 82, .14);
+  --judo-red-tint: rgba(217, 58, 53, .14);
+  --judo-purple-tint: rgba(106, 63, 184, .2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: #141319;
+    --ion-background-color-rgb: 20, 19, 25;
+    --ion-text-color: #f0eef6;
+    --ion-text-color-rgb: 240, 238, 246;
+
+    --ion-toolbar-background: #141319;
+    --ion-tab-bar-background: #1b1a20;
+    --ion-item-background: #20202a;
+    --ion-card-background: #20202a;
+
+    --ion-color-primary: #8a5cd6;
+    --ion-color-primary-rgb: 138, 92, 214;
+    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary-contrast-rgb: 255, 255, 255;
+    --ion-color-primary-shade: #794fbc;
+    --ion-color-primary-tint: #966bda;
+
+    /* Token app */
+    --judo-purple: #b98bff;
+    --judo-purple-base: #8a5cd6;
+    --judo-green: #4bd88a;
+    --judo-red: #ff6b64;
+    --judo-surface: #20202a;
+    --judo-border: #2c2b38;
+    --judo-muted: #8886a0;
+
+    --judo-green-tint: rgba(75, 216, 138, .14);
+    --judo-red-tint: rgba(255, 107, 100, .14);
+    --judo-purple-tint: rgba(138, 92, 214, .2);
+  }
 }

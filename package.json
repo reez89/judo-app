@@ -9,7 +9,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "videos:sync": "python3 scripts/sync_kodokan_videos.py",
+    "videos:links": "python3 scripts/sync_kodokan_videos.py --links-only",
+    "videos:test": "python3 -m unittest discover -s scripts -p test_*.py"
   },
   "private": true,
   "dependencies": {

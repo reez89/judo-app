@@ -51,6 +51,31 @@ describe('MediaComponent', () => {
     expect(img.alt).toBe('Osoto-gari');
   });
 
+  it('mostra un link YouTube senza usare il player MP4', () => {
+    fixture.componentInstance.items = [{ tipo: 'youtube', src: 'https://www.youtube.com/watch?v=c-A_nP7mKAc' }];
+    fixture.detectChanges();
+    expect(fixture.nativeElement.querySelector('video')).toBeNull();
+    expect(fixture.nativeElement.querySelector('img')).toBeNull();
+    expect(fixture.nativeElement.querySelector('a').href).toContain('c-A_nP7mKAc');
+  });
+
+  it('mantiene la fonte disponibile in caso di errore del video locale', async () => {
+    fixture.componentInstance.items = [{ tipo: 'video', src: 'missing.mp4', sourceUrl: 'https://www.youtube.com/watch?v=c-A_nP7mKAc' }];
+    await fixture.componentInstance.onPlayClick();
+    fixture.detectChanges();
+    fixture.nativeElement.querySelector('video').dispatchEvent(new Event('error'));
+    fixture.detectChanges();
+    expect(fixture.nativeElement.querySelector('[role="status"]')).not.toBeNull();
+    expect(fixture.nativeElement.querySelector('a').href).toContain('c-A_nP7mKAc');
+  });
+
+  it('azzera la riproduzione quando cambia la tecnica', async () => {
+    fixture.componentInstance.items = [{ tipo: 'video', src: 'first.mp4' }];
+    await fixture.componentInstance.onPlayClick();
+    fixture.componentInstance.ngOnChanges();
+    expect(fixture.componentInstance.showingVideo()).toBeNull();
+  });
+
   it('usa la didascalia quando presente, ignorando altFallback', () => {
     fixture.componentInstance.items = [
       { tipo: 'placeholder', src: 'assets/media/placeholder.svg', didascalia: 'Presa iniziale' }

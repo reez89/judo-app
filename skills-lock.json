@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "angular-cli": {
+      "source": "oguzhan18/angular-ecosystem-skills",
+      "sourceType": "github",
+      "skillPath": "skills/angular-cli/SKILL.md",
+      "computedHash": "cd16cc968d9d3902101bed96a2e0583b35e10f17091dbde5ec631ef0e4aa8a10"
+    }
+  }
+}

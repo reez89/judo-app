@@ -71,3 +71,10 @@ Thumbs.db
 
 # Project scratch (superpowers SDD working files)
 .superpowers/
+.vercel
+.env*
+
+# Downloaded Kodokan media (restore with npm run videos:sync)
+/.video-cache/
+/src/assets/media/kodokan/*.mp4
+/scripts/__pycache__/

@@ -1,0 +1,426 @@
+{
+  "playlist": "https://www.youtube.com/playlist?list=PLtz539PTepc16H2iu5F3Q3D7_He1EYlIQ",
+  "playlistVideos": 119,
+  "techniques": [
+    {
+      "technique": "osoto-gari",
+      "status": "local",
+      "videoId": "c-A_nP7mKAc",
+      "title": "大外刈 / O-soto-gari",
+      "url": "https://www.youtube.com/watch?v=c-A_nP7mKAc"
+    },
+    {
+      "technique": "o-goshi",
+      "status": "local",
+      "videoId": "yhu1mfy2vJ4",
+      "title": "大腰 / O-goshi",
+      "url": "https://www.youtube.com/watch?v=yhu1mfy2vJ4"
+    },
+    {
+      "technique": "seoi-nage",
+      "status": "local",
+      "videoId": "zIq0xI0ogxk",
+      "title": "背負投 / Seoi-nage",
+      "url": "https://www.youtube.com/watch?v=zIq0xI0ogxk"
+    },
+    {
+      "technique": "kesa-gatame",
+      "status": "local",
+      "videoId": "NDaQuJOFBYk",
+      "title": "袈裟固 /  Kesa-gatame",
+      "url": "https://www.youtube.com/watch?v=NDaQuJOFBYk"
+    },
+    {
+      "technique": "de-ashi-barai",
+      "status": "local",
+      "videoId": "4BUUvqxi_Kk",
+      "title": "出足払 / De-ashi-harai",
+      "url": "https://www.youtube.com/watch?v=4BUUvqxi_Kk"
+    },
+    {
+      "technique": "ouchi-gari",
+      "status": "local",
+      "videoId": "0itJFhV9pDQ",
+      "title": "大内刈 / O-uchi-gari",
+      "url": "https://www.youtube.com/watch?v=0itJFhV9pDQ"
+    },
+    {
+      "technique": "kouchi-gari",
+      "status": "local",
+      "videoId": "3Jb3tZvr9Ng",
+      "title": "小内刈 / Ko-uchi-gari",
+      "url": "https://www.youtube.com/watch?v=3Jb3tZvr9Ng"
+    },
+    {
+      "technique": "uki-goshi",
+      "status": "local",
+      "videoId": "bPKwtB4lyOQ",
+      "title": "浮腰 / Uki-goshi",
+      "url": "https://www.youtube.com/watch?v=bPKwtB4lyOQ"
+    },
+    {
+      "technique": "tai-otoshi",
+      "status": "local",
+      "videoId": "4x6S3Q-Ktv8",
+      "title": "体落 / Tai-otoshi",
+      "url": "https://www.youtube.com/watch?v=4x6S3Q-Ktv8"
+    },
+    {
+      "technique": "ippon-seoi-nage",
+      "status": "local",
+      "videoId": "FQnOlCxo4oI",
+      "title": "一本背負投 / Ippon-seoi-nage",
+      "url": "https://www.youtube.com/watch?v=FQnOlCxo4oI"
+    },
+    {
+      "technique": "sasae-tsurikomi-ashi",
+      "status": "local",
+      "videoId": "699i--pvYmE",
+      "title": "支釣込足 / Sasae-tsurikomi-ashi",
+      "url": "https://www.youtube.com/watch?v=699i--pvYmE"
+    },
+    {
+      "technique": "tsuri-komi-goshi",
+      "status": "local",
+      "videoId": "McfzA0yRVt4",
+      "title": "釣込腰 / Tsurikomi-goshi",
+      "url": "https://www.youtube.com/watch?v=McfzA0yRVt4"
+    },
+    {
+      "technique": "harai-goshi",
+      "status": "local",
+      "videoId": "qTo8HlAAkOo",
+      "title": "払腰 / Harai-goshi",
+      "url": "https://www.youtube.com/watch?v=qTo8HlAAkOo"
+    },
+    {
+      "technique": "hane-goshi",
+      "status": "local",
+      "videoId": "M9_7De6A1kk",
+      "title": "跳腰 / Hane-goshi",
+      "url": "https://www.youtube.com/watch?v=M9_7De6A1kk"
+    },
+    {
+      "technique": "uchi-mata",
+      "status": "local",
+      "videoId": "iUpSu5J-bgw",
+      "title": "内股 / Uchi-mata",
+      "url": "https://www.youtube.com/watch?v=iUpSu5J-bgw"
+    },
+    {
+      "technique": "tomoe-nage",
+      "status": "local",
+      "videoId": "880WbHvHv6A",
+      "title": "巴投 / Tomoe-nage",
+      "url": "https://www.youtube.com/watch?v=880WbHvHv6A"
+    },
+    {
+      "technique": "yoko-shiho-gatame",
+      "status": "local",
+      "videoId": "TT7XJVSEQxA",
+      "title": "横四方固 /  Yoko-shiho-gatame",
+      "url": "https://www.youtube.com/watch?v=TT7XJVSEQxA"
+    },
+    {
+      "technique": "kami-shiho-gatame",
+      "status": "local",
+      "videoId": "HFuMjOv0WN8",
+      "title": "上四方固 /  Kami-shiho-gatame",
+      "url": "https://www.youtube.com/watch?v=HFuMjOv0WN8"
+    },
+    {
+      "technique": "tate-shiho-gatame",
+      "status": "local",
+      "videoId": "55-rFmBx53g",
+      "title": "縦四方固 /  Tate-shiho-gatame",
+      "url": "https://www.youtube.com/watch?v=55-rFmBx53g"
+    },
+    {
+      "technique": "kata-gatame",
+      "status": "local",
+      "videoId": "zQR3IOXxO_Q",
+      "title": "肩固 /  Kata-gatame",
+      "url": "https://www.youtube.com/watch?v=zQR3IOXxO_Q"
+    },
+    {
+      "technique": "okuri-eri-jime",
+      "status": "local",
+      "videoId": "EiqyoVcIAi8",
+      "title": "送襟絞 /  Okuri-eri-jime",
+      "url": "https://www.youtube.com/watch?v=EiqyoVcIAi8"
+    },
+    {
+      "technique": "hadaka-jime",
+      "status": "local",
+      "videoId": "9f0n8jez7iA",
+      "title": "裸絞 /  Hadaka-jime",
+      "url": "https://www.youtube.com/watch?v=9f0n8jez7iA"
+    },
+    {
+      "technique": "juji-gatame",
+      "status": "local",
+      "videoId": "OWgSOlCuMXw",
+      "title": "腕挫十字固 /  Ude-hishigi-juji-gatame",
+      "url": "https://www.youtube.com/watch?v=OWgSOlCuMXw"
+    },
+    {
+      "technique": "ude-garami",
+      "status": "local",
+      "videoId": "AIlTvZb4RlE",
+      "title": "腕緘 /  Ude-garami",
+      "url": "https://www.youtube.com/watch?v=AIlTvZb4RlE"
+    },
+    {
+      "technique": "hiza-guruma",
+      "status": "local",
+      "videoId": "JPJx9-oAVns",
+      "title": "膝車 / Hiza-guruma",
+      "url": "https://www.youtube.com/watch?v=JPJx9-oAVns"
+    },
+    {
+      "technique": "morote-seoi-nage",
+      "status": "missing"
+    },
+    {
+      "technique": "eri-seoi-nage",
+      "status": "missing"
+    },
+    {
+      "technique": "kosoto-gari",
+      "status": "local",
+      "videoId": "jeQ541ScLB4",
+      "title": "小外刈 / Ko-soto-gari",
+      "url": "https://www.youtube.com/watch?v=jeQ541ScLB4"
+    },
+    {
+      "technique": "koshi-guruma",
+      "status": "local",
+      "videoId": "SU7Id6uVJ44",
+      "title": "腰車 / Koshi-guruma",
+      "url": "https://www.youtube.com/watch?v=SU7Id6uVJ44"
+    },
+    {
+      "technique": "okuri-ashi-barai",
+      "status": "local",
+      "videoId": "nw1ZdRjrdRI",
+      "title": "送足払 / Okuri-ashi-harai",
+      "url": "https://www.youtube.com/watch?v=nw1ZdRjrdRI"
+    },
+    {
+      "technique": "ushiro-kesa-gatame",
+      "status": "local",
+      "videoId": "SBapox2M2dE",
+      "title": "後袈裟固 /  Ushiro-kesa-gatame",
+      "url": "https://www.youtube.com/watch?v=SBapox2M2dE"
+    },
+    {
+      "technique": "makura-kesa-gatame",
+      "status": "missing"
+    },
+    {
+      "technique": "kosoto-gake",
+      "status": "local",
+      "videoId": "8b6kY4s4zH4",
+      "title": "小外掛 / Ko-soto-gake",
+      "url": "https://www.youtube.com/watch?v=8b6kY4s4zH4"
+    },
+    {
+      "technique": "tsuri-goshi",
+      "status": "local",
+      "videoId": "51Htlp7xEvE",
+      "title": "釣腰 / Tsuri-goshi",
+      "url": "https://www.youtube.com/watch?v=51Htlp7xEvE"
+    },
+    {
+      "technique": "yoko-otoshi",
+      "status": "local",
+      "videoId": "MnNG67pF_a0",
+      "title": "横落 / Yoko-otoshi",
+      "url": "https://www.youtube.com/watch?v=MnNG67pF_a0"
+    },
+    {
+      "technique": "ashi-guruma",
+      "status": "local",
+      "videoId": "ROeayhvom9U",
+      "title": "足車 / Ashi-guruma",
+      "url": "https://www.youtube.com/watch?v=ROeayhvom9U"
+    },
+    {
+      "technique": "harai-tsurikomi-ashi",
+      "status": "local",
+      "videoId": "gGPXvWL8VbE",
+      "title": "払釣込足 / Harai-tsurikomi-ashi",
+      "url": "https://www.youtube.com/watch?v=gGPXvWL8VbE"
+    },
+    {
+      "technique": "kata-guruma",
+      "status": "local",
+      "videoId": "cnHRhSy8yi4",
+      "title": "肩車 / Kata-guruma",
+      "url": "https://www.youtube.com/watch?v=cnHRhSy8yi4"
+    },
+    {
+      "technique": "nami-juji-jime",
+      "status": "local",
+      "videoId": "k2cHry9HByQ",
+      "title": "並十字絞 /  Nami-juji-jime",
+      "url": "https://www.youtube.com/watch?v=k2cHry9HByQ"
+    },
+    {
+      "technique": "gyaku-juji-jime",
+      "status": "local",
+      "videoId": "t3tQriIPdlI",
+      "title": "逆十字絞 /  Gyaku-juji-jime",
+      "url": "https://www.youtube.com/watch?v=t3tQriIPdlI"
+    },
+    {
+      "technique": "kata-juji-jime",
+      "status": "local",
+      "videoId": "3VZVUAmiMD8",
+      "title": "片十字絞 /  Kata-juji-jime",
+      "url": "https://www.youtube.com/watch?v=3VZVUAmiMD8"
+    },
+    {
+      "technique": "sumi-gaeshi",
+      "status": "local",
+      "videoId": "5VhduA5xkbA",
+      "title": "隅返 / Sumi-gaeshi",
+      "url": "https://www.youtube.com/watch?v=5VhduA5xkbA"
+    },
+    {
+      "technique": "tani-otoshi",
+      "status": "local",
+      "videoId": "3b9Me3Fohpk",
+      "title": "谷落 / Tani-otoshi",
+      "url": "https://www.youtube.com/watch?v=3b9Me3Fohpk"
+    },
+    {
+      "technique": "hane-makikomi",
+      "status": "local",
+      "videoId": "6CRBGLGz9j8",
+      "title": "跳巻込 / Hane-makikomi",
+      "url": "https://www.youtube.com/watch?v=6CRBGLGz9j8"
+    },
+    {
+      "technique": "sukui-nage",
+      "status": "local",
+      "videoId": "vU6aJ2kFxoI",
+      "title": "掬投 / Sukui-nage",
+      "url": "https://www.youtube.com/watch?v=vU6aJ2kFxoI"
+    },
+    {
+      "technique": "utsuri-goshi",
+      "status": "local",
+      "videoId": "4pQd_bEnlf0",
+      "title": "移腰 / Utsuri-goshi",
+      "url": "https://www.youtube.com/watch?v=4pQd_bEnlf0"
+    },
+    {
+      "technique": "o-guruma",
+      "status": "local",
+      "videoId": "SnZciTAY9vc",
+      "title": "大車 / O-guruma",
+      "url": "https://www.youtube.com/watch?v=SnZciTAY9vc"
+    },
+    {
+      "technique": "soto-makikomi",
+      "status": "local",
+      "videoId": "bWG9O1BVKtQ",
+      "title": "外巻込 / Soto-makikomi",
+      "url": "https://www.youtube.com/watch?v=bWG9O1BVKtQ"
+    },
+    {
+      "technique": "uki-otoshi",
+      "status": "local",
+      "videoId": "6H5tmncOY4Q",
+      "title": "浮落 / Uki-otoshi",
+      "url": "https://www.youtube.com/watch?v=6H5tmncOY4Q"
+    },
+    {
+      "technique": "kataha-jime",
+      "status": "local",
+      "videoId": "yaTGgRjnwB8",
+      "title": "片羽絞 /  Kataha-jime",
+      "url": "https://www.youtube.com/watch?v=yaTGgRjnwB8"
+    },
+    {
+      "technique": "ryote-jime",
+      "status": "local",
+      "videoId": "-RHC4V7TQiY",
+      "title": "両手絞 /  Ryote-jime",
+      "url": "https://www.youtube.com/watch?v=-RHC4V7TQiY"
+    },
+    {
+      "technique": "ude-gatame",
+      "status": "local",
+      "videoId": "SBf0aTma1VI",
+      "title": "腕挫腕固 /  Ude-hishigi-ude-gatame",
+      "url": "https://www.youtube.com/watch?v=SBf0aTma1VI"
+    },
+    {
+      "technique": "waki-gatame",
+      "status": "local",
+      "videoId": "8F5p1zuJRG0",
+      "title": "腕挫腋固 /  Ude-hishigi-waki-gatame",
+      "url": "https://www.youtube.com/watch?v=8F5p1zuJRG0"
+    },
+    {
+      "technique": "osoto-guruma",
+      "status": "local",
+      "videoId": "92KbCm6pQeI",
+      "title": "大外車 / O-soto-guruma",
+      "url": "https://www.youtube.com/watch?v=92KbCm6pQeI"
+    },
+    {
+      "technique": "uki-waza",
+      "status": "local",
+      "videoId": "weVOpJ63gII",
+      "title": "浮技 / Uki-waza",
+      "url": "https://www.youtube.com/watch?v=weVOpJ63gII"
+    },
+    {
+      "technique": "yoko-wakare",
+      "status": "local",
+      "videoId": "bp1tscHlePI",
+      "title": "横分 / Yoko-wakare",
+      "url": "https://www.youtube.com/watch?v=bp1tscHlePI"
+    },
+    {
+      "technique": "yoko-guruma",
+      "status": "local",
+      "videoId": "MehP6I5cY2c",
+      "title": "横車 / Yoko-guruma",
+      "url": "https://www.youtube.com/watch?v=MehP6I5cY2c"
+    },
+    {
+      "technique": "ushiro-goshi",
+      "status": "local",
+      "videoId": "ORIYstuxYT8",
+      "title": "後腰 / Ushiro-goshi",
+      "url": "https://www.youtube.com/watch?v=ORIYstuxYT8"
+    },
+    {
+      "technique": "ura-nage",
+      "status": "local",
+      "videoId": "Fgi9b8DJ5sQ",
+      "title": "裏投 / Ura-nage",
+      "url": "https://www.youtube.com/watch?v=Fgi9b8DJ5sQ"
+    },
+    {
+      "technique": "sumi-otoshi",
+      "status": "local",
+      "videoId": "lLU9wv52ni0",
+      "title": "隅落 / Sumi-otoshi",
+      "url": "https://www.youtube.com/watch?v=lLU9wv52ni0"
+    },
+    {
+      "technique": "yoko-gake",
+      "status": "local",
+      "videoId": "tP1Sj1uDfSo",
+      "title": "横掛 / Yoko-gake",
+      "url": "https://www.youtube.com/watch?v=tP1Sj1uDfSo"
+    }
+  ],
+  "downloadErrors": [],
+  "downloadedVideos": 119
+}
